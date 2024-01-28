@@ -1,11 +1,47 @@
 <!DOCTYPE HTML>
-
-<html>
+<html lang="en">
     <head>
-
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stock News Word Cloud Dashboard</title>
+        <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="static/custom/custom.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Hello There!</h1>
-        <h2>This will be the main dashboard location</h2>
+        <div class="container full-ht">
+            <div id="main-title">
+                <h1 class="header">Stock Price-Performance vs News Keyword Appearance</h1>
+            </div>
+            <div id="main-content" class="row">
+                <div id="left-pane" class="widget-box col col-md-4 col-sm-12">
+                    <div id="cap-widget" class="dash-widget widget-full">
+                        <h3 class="widget-title header">Market Cap Comparison</h1>
+                        <p>Click bubbles to select/deselect stocks</p>
+                        <p>(Up to 5 max)</p>
+                        <div class="widget-dropdown">
+                            <label for="market-cap-filter">Filter Stocks:</label>
+                            <select name="market-cap-filter" id="market-cap-filter">
+                                <option value="all" > -- Select a Filter -- </option>
+                                <!-- <option disabled> -- By Sector -- </option>
+                                <option disabled> -- By Size -- </option> -->
+                            </select>
+                        </div>
+                        <div id="market-cap" class="dynamic-vis-box"></div>
+                    </div>
+                </div>
+                <div id="right-pane" class="widget-box col col-md-8 col-sm-12">
+                    <div id="word-cloud-widget" class="dash-widget widget-vert">
+                        <h3 class="widget-title header">Stock News Word Cloud</h1>
+                        <div id="word-cloud" class="dynamic-vis-box"></div>
+                    </div>
+                    <div id="plot-widget" class="dash-widget widget-vert">
+                        <h3 class="widget-title header">Price Over Time</h1>
+                        <div id="price-plot" class="dynamic-vis-box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ALL SCRIPTS BELOW HERE PLEASE -->
+        <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
