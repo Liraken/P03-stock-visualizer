@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Stock News Word Cloud Dashboard</title>
         <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="static/custom/custom.css" rel="stylesheet">
+        <link href="static/custom/css/custom.css" rel="stylesheet">
     </head>
     <body>
         <div class="container full-ht">
@@ -43,5 +43,10 @@
         </div>
         <!-- ALL SCRIPTS BELOW HERE PLEASE -->
         <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script type="module">import { parse } from '/static/csv/index.min.js'</script>
+        <script src="static/custom/js/bubble.js"></script>
+        <script src="static/custom/js/plot.js"></script>
+        <script src="static/custom/js/wordcloud.js"></script>
+        <script src="static/custom/js/main.js"></script>
     </body>
 </html>
