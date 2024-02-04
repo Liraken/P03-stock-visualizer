@@ -26,7 +26,11 @@
                                 <option disabled> -- By Size -- </option> -->
                             </select>
                         </div>
-                        <div id="market-cap" class="dynamic-vis-box"></div>
+                        <div id="market-cap" class="dynamic-vis-box">
+                            <input type="text" id="keywordInput" placeholder="Search...">
+                            <ul type="text" id="keywordList">
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div id="right-pane" class="widget-box col col-md-8 col-sm-12">
@@ -43,6 +47,8 @@
         </div>
         <!-- ALL SCRIPTS BELOW HERE PLEASE -->
         <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
         <script src="static/custom/js/bubble.js"></script>
         <script src="static/custom/js/plot.js"></script>
         <script src="static/custom/js/wordcloud.js"></script>

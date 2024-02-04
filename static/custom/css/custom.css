@@ -65,11 +65,11 @@ body {
 } */
 
 #plot-widget {
-    height: 35%;
+    height: 40%;
 }
 
 #word-cloud-widget {
-    height: 65%;
+    height: 60%;
 }
 
 .full-ht {
@@ -77,4 +77,44 @@ body {
     display: flex;
     flex-flow: column;
     padding-bottom:12px;
+}
+
+#keywordInput {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#keywordList {
+    list-style-type: none;
+    padding: 0;
+    max-height: 70vh;
+    overflow: scroll;
+}
+
+.keywordItem {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.keywordItem:hover {
+    background-color: #777;
+}
+
+.keywordItem.selected {
+    background-color: #555;
+}
+.keywordItem.selected:hover {
+    background-color: #888;
+}
+
+#keywordList.full {
+    background-color: #622;
+}
+
+#keywordList.full .keywordItem:hover {
+    background-color: #702828;
+}
+
+#keywordList.full .keywordItem.selected:hover {
+    background-color: #501818;
 }
