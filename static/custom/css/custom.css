@@ -48,6 +48,10 @@ body {
     background: #111;
     box-shadow: 1px 1px 3px #000;
     flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    overflow:hidden;
 }
 
 .dash-widget {
@@ -87,8 +91,10 @@ body {
 #keywordList {
     list-style-type: none;
     padding: 0;
-    max-height: 70vh;
+    max-height: 72vh;
     overflow: scroll;
+    width: 100%;
+    margin-bottom: 0;
 }
 
 .keywordItem {
@@ -108,13 +114,21 @@ body {
 }
 
 #keywordList.full {
-    background-color: #622;
+    background-color: #411;
 }
 
 #keywordList.full .keywordItem:hover {
-    background-color: #702828;
+    background-color: #581818;
 }
 
 #keywordList.full .keywordItem.selected:hover {
-    background-color: #501818;
+    background-color: #702828;
+}
+
+.plot-container .svg-container .main-svg {
+    border-radius: 6px;
+}
+
+.hdiv-input-button {
+    margin-bottom: 12px;
 }
