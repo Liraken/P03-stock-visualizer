@@ -10,14 +10,15 @@
     <body>
         <div class="container full-ht">
             <div id="main-title">
-                <h1 class="header">Stock Price-Performance vs News Keyword Appearance</h3>
+                <h1 class="header">Stock Price-Performance vs Keyword Appearance</h3>
+                    <hr>
             </div>
             <div id="main-content" class="row">
                 <div id="left-pane" class="widget-box col col-md-4 col-sm-12">
                     <div id="cap-widget" class="dash-widget widget-full">
-                        <h3 class="widget-title header">Market Cap Comparison</h3>
+                        <h3 class="widget-title header" style="color: #fa2">Pick some Tickers!</h3>
                         <p>Click to select/deselect stocks</p>
-                        <p>(Up to 5 max)</p>
+                        <p style="color: #fa2">(Up to 5 max)</p>
                         <div class="widget-dropdown">
                             <!-- <label for="market-cap-filter">Filter Stocks:</label>
                             <select name="market-cap-filter" id="market-cap-filter">
@@ -38,19 +39,19 @@
                 </div>
                 <div id="right-pane" class="widget-box col col-md-8 col-sm-12">
                     <div id="word-cloud-widget" class="dash-widget widget-vert">
-                        <div id="wc-title">
-                            <h3 class="widget-title header">Stock Keyword Cloud</h3>
-                            <form>
+                        <div id="wc-title" class="row">
+                            <h3 class="widget-title header col-lg-6 col-md-7 col-sm-12">Stock Keyword Cloud</h3>
+                            <form class="col-lg-6 col-md-5 col-sm-12">
                                 <input type="radio" id="news" name="option" value="news">
                                 <label for="news">News Keywords</label><br>
-                                <input type="radio" id="letter-words" name="option" value="letterWords">
-                                <label for="letterWords">Shareholder Letter</label><br>
+                                <input type="radio" id="letter-words" name="option" value="letter-words">
+                                <label for="letter-words">Shareholder Letter</label><br>
                             </form>
                         </div>
                         <div id="word-cloud" class="dynamic-vis-box"></div>
                     </div>
                     <div id="plot-widget" class="dash-widget widget-vert">
-                        <h3 class="widget-title header">Price Over Time</h1>
+                        <!-- <h3 class="widget-title header">Price Over Time</h3> -->
                         <div id="price-plot" class="dynamic-vis-box"></div>
                     </div>
                 </div>

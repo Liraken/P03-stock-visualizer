@@ -29,11 +29,6 @@ body {
     color: #f0f0f0;
 }
 
-.dash-widget p {
-    margin-top: -6px;
-    margin-bottom: 6px;
-}
-
 .widget-dropdown {
     margin-bottom: 12px;
 }
@@ -51,13 +46,24 @@ body {
     display: flex;
     flex-flow: column;
     align-items: center;
-    overflow:hidden;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+#market-cap {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .dash-widget {
     display: flex;
     flex-flow: column;
-    padding-bottom: 12px;
+    padding-bottom: 14px;
+}
+
+.dash-widget p {
+    margin-top: -6px;
+    margin-bottom: 6px;
 }
 
 .widget-full {
@@ -88,7 +94,7 @@ body {
     list-style-type: none;
     padding: 0;
     max-height: 72vh;
-    overflow: scroll;
+    overflow-y: scroll;
     width: 100%;
     margin-bottom: 0;
 }
@@ -110,7 +116,12 @@ body {
 }
 
 #keywordList.full {
-    background-color: #411;
+    /* background-color: #411; */
+    background-color: #333;
+}
+
+#keywordList.full .keywordItem:not(.selected) {
+    color: #888
 }
 
 #keywordList.full .keywordItem:hover {
@@ -126,12 +137,24 @@ body {
 }
 
 .hdiv-input-button {
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 }
 
-#wc-title {
-    display:flex;
+#wc-title form {
+    align-content: center;
 }
 
-/* #wc-title h3 {
-} */
+#wc-title form label {
+    position: relative;
+    float: left;
+    vertical-align: middle;
+}
+
+#wc-title form input {
+    width: auto;
+    position: relative;
+    float: left;
+    margin-left: 12px;
+    margin-right: 6px;
+    top: 6px;
+}

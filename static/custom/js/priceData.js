@@ -1,4 +1,4 @@
-let organizedTickerData = {
+let priceData = {
   "AA": {
     "priceHistory": {
       "2023-01-03": {
@@ -109,7 +109,9 @@ let organizedTickerData = {
         "afterHours": "27.71",
         "preMarket": "27.22"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AAL": {
     "priceHistory": {
@@ -221,7 +223,9 @@ let organizedTickerData = {
         "afterHours": "13.02",
         "preMarket": "12.43"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "AAP": {
     "priceHistory": {
@@ -333,7 +337,9 @@ let organizedTickerData = {
         "afterHours": "54.0",
         "preMarket": "50.79"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AAPL": {
     "priceHistory": {
@@ -445,7 +451,9 @@ let organizedTickerData = {
         "afterHours": "191.33",
         "preMarket": "189.98"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "ABBV": {
     "priceHistory": {
@@ -557,7 +565,9 @@ let organizedTickerData = {
         "afterHours": "143.41",
         "preMarket": "143.0"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "ABG": {
     "priceHistory": {
@@ -669,7 +679,9 @@ let organizedTickerData = {
         "afterHours": "217.52",
         "preMarket": "209.31"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ABM": {
     "priceHistory": {
@@ -781,7 +793,9 @@ let organizedTickerData = {
         "afterHours": "42.15",
         "preMarket": "40.91"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ABNB": {
     "priceHistory": {
@@ -893,7 +907,9 @@ let organizedTickerData = {
         "afterHours": "136.0",
         "preMarket": "126.8"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ABT": {
     "priceHistory": {
@@ -1005,7 +1021,9 @@ let organizedTickerData = {
         "afterHours": "104.88",
         "preMarket": "104.2"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "ACI": {
     "priceHistory": {
@@ -1117,7 +1135,9 @@ let organizedTickerData = {
         "afterHours": "21.76",
         "preMarket": "21.81"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "ACM": {
     "priceHistory": {
@@ -1229,7 +1249,9 @@ let organizedTickerData = {
         "afterHours": "89.54",
         "preMarket": "88.72"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ADBE": {
     "priceHistory": {
@@ -1341,7 +1363,9 @@ let organizedTickerData = {
         "afterHours": "613.0001",
         "preMarket": "611.01"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ADI": {
     "priceHistory": {
@@ -1453,7 +1477,9 @@ let organizedTickerData = {
         "afterHours": "183.07",
         "preMarket": "182.79"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ADM": {
     "priceHistory": {
@@ -1565,7 +1591,9 @@ let organizedTickerData = {
         "afterHours": "75.08",
         "preMarket": "73.73"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "ADP": {
     "priceHistory": {
@@ -1677,7 +1705,9 @@ let organizedTickerData = {
         "afterHours": "232.94",
         "preMarket": "229.36"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AEE": {
     "priceHistory": {
@@ -1789,7 +1819,9 @@ let organizedTickerData = {
         "afterHours": "78.97",
         "preMarket": "77.62"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AEP": {
     "priceHistory": {
@@ -1901,7 +1933,9 @@ let organizedTickerData = {
         "afterHours": "80.6",
         "preMarket": "79.86"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AES": {
     "priceHistory": {
@@ -2013,7 +2047,9 @@ let organizedTickerData = {
         "afterHours": "18.14",
         "preMarket": "17.15"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AFL": {
     "priceHistory": {
@@ -2125,7 +2161,9 @@ let organizedTickerData = {
         "afterHours": "82.61",
         "preMarket": "82.64"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AGCO": {
     "priceHistory": {
@@ -2237,7 +2275,9 @@ let organizedTickerData = {
         "afterHours": "117.37",
         "preMarket": "114.07"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AIG": {
     "priceHistory": {
@@ -2349,7 +2389,9 @@ let organizedTickerData = {
         "afterHours": "65.97",
         "preMarket": "65.82"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "AIZ": {
     "priceHistory": {
@@ -2461,7 +2503,9 @@ let organizedTickerData = {
         "afterHours": "168.3",
         "preMarket": "167.39"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AJG": {
     "priceHistory": {
@@ -2573,7 +2617,9 @@ let organizedTickerData = {
         "afterHours": "248.0",
         "preMarket": "248.4"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ALB": {
     "priceHistory": {
@@ -2685,7 +2731,9 @@ let organizedTickerData = {
         "afterHours": "126.3",
         "preMarket": "121.4"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ALK": {
     "priceHistory": {
@@ -2797,7 +2845,9 @@ let organizedTickerData = {
         "afterHours": "39.16",
         "preMarket": "37.82"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ALL": {
     "priceHistory": {
@@ -2909,7 +2959,9 @@ let organizedTickerData = {
         "afterHours": "137.68",
         "preMarket": "136.94"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "ALLY": {
     "priceHistory": {
@@ -3021,7 +3073,9 @@ let organizedTickerData = {
         "afterHours": "30.84",
         "preMarket": "29.4442"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ALV": {
     "priceHistory": {
@@ -3133,7 +3187,9 @@ let organizedTickerData = {
         "afterHours": "105.79",
         "preMarket": "103.89"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AMAT": {
     "priceHistory": {
@@ -3245,7 +3301,9 @@ let organizedTickerData = {
         "afterHours": "151.59",
         "preMarket": "150.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AMD": {
     "priceHistory": {
@@ -3357,7 +3415,9 @@ let organizedTickerData = {
         "afterHours": "121.5",
         "preMarket": "121.32"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AMGN": {
     "priceHistory": {
@@ -3469,7 +3529,9 @@ let organizedTickerData = {
         "afterHours": "272.45",
         "preMarket": "269.965"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AMP": {
     "priceHistory": {
@@ -3581,7 +3643,9 @@ let organizedTickerData = {
         "afterHours": "356.29",
         "preMarket": "353.18"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AMRK": {
     "priceHistory": {
@@ -3693,7 +3757,9 @@ let organizedTickerData = {
         "afterHours": "29.81",
         "preMarket": "28.7"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AMT": {
     "priceHistory": {
@@ -3805,7 +3871,9 @@ let organizedTickerData = {
         "afterHours": "210.47",
         "preMarket": "208.4"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AMZN": {
     "priceHistory": {
@@ -3917,7 +3985,9 @@ let organizedTickerData = {
         "afterHours": "147.1",
         "preMarket": "146.21"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "AN": {
     "priceHistory": {
@@ -4029,7 +4099,9 @@ let organizedTickerData = {
         "afterHours": "140.95",
         "preMarket": "135.29"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ANDE": {
     "priceHistory": {
@@ -4141,7 +4213,9 @@ let organizedTickerData = {
         "afterHours": "50.82",
         "preMarket": "49.86"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "APA": {
     "priceHistory": {
@@ -4253,7 +4327,9 @@ let organizedTickerData = {
         "afterHours": "36.23",
         "preMarket": "36.12"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "APD": {
     "priceHistory": {
@@ -4365,7 +4441,9 @@ let organizedTickerData = {
         "afterHours": "272.64",
         "preMarket": "270.61"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "APH": {
     "priceHistory": {
@@ -4477,7 +4555,9 @@ let organizedTickerData = {
         "afterHours": "92.28",
         "preMarket": "90.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "APO": {
     "priceHistory": {
@@ -4589,7 +4669,9 @@ let organizedTickerData = {
         "afterHours": "91.6",
         "preMarket": "93.5891"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ARKO": {
     "priceHistory": {
@@ -4701,7 +4783,9 @@ let organizedTickerData = {
         "afterHours": "7.69",
         "preMarket": "7.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ARMK": {
     "priceHistory": {
@@ -4813,7 +4897,9 @@ let organizedTickerData = {
         "afterHours": "28.29",
         "preMarket": "28.07"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ARNC": {
     "priceHistory": {
@@ -4889,7 +4975,9 @@ let organizedTickerData = {
         "afterHours": "29.88",
         "preMarket": "29.93"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ARW": {
     "priceHistory": {
@@ -5001,7 +5089,9 @@ let organizedTickerData = {
         "afterHours": "119.64",
         "preMarket": "118.71"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ATUS": {
     "priceHistory": {
@@ -5113,7 +5203,9 @@ let organizedTickerData = {
         "afterHours": "2.34",
         "preMarket": "2.31"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ATVI": {
     "priceHistory": {
@@ -5207,7 +5299,9 @@ let organizedTickerData = {
         "afterHours": "93.92",
         "preMarket": "93.64"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AVGO": {
     "priceHistory": {
@@ -5319,7 +5413,9 @@ let organizedTickerData = {
         "afterHours": "930.5",
         "preMarket": "927.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AVT": {
     "priceHistory": {
@@ -5431,7 +5527,9 @@ let organizedTickerData = {
         "afterHours": "47.43",
         "preMarket": "46.61"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AVTR": {
     "priceHistory": {
@@ -5543,7 +5641,9 @@ let organizedTickerData = {
         "afterHours": "21.27",
         "preMarket": "21.07"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AVY": {
     "priceHistory": {
@@ -5655,7 +5755,9 @@ let organizedTickerData = {
         "afterHours": "195.19",
         "preMarket": "194.25"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "AXP": {
     "priceHistory": {
@@ -5767,7 +5869,9 @@ let organizedTickerData = {
         "afterHours": "173.61",
         "preMarket": "168.9"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "AZO": {
     "priceHistory": {
@@ -5879,7 +5983,9 @@ let organizedTickerData = {
         "afterHours": "2638.93",
         "preMarket": "2616.82"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BA": {
     "priceHistory": {
@@ -5991,7 +6097,9 @@ let organizedTickerData = {
         "afterHours": "234.86",
         "preMarket": "231.35"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "BAC": {
     "priceHistory": {
@@ -6103,7 +6211,9 @@ let organizedTickerData = {
         "afterHours": "30.98",
         "preMarket": "30.54"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BAH": {
     "priceHistory": {
@@ -6215,7 +6325,9 @@ let organizedTickerData = {
         "afterHours": "128.16",
         "preMarket": "125.44"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BALL": {
     "priceHistory": {
@@ -6327,7 +6439,9 @@ let organizedTickerData = {
         "afterHours": "56.34",
         "preMarket": "55.14"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BAX": {
     "priceHistory": {
@@ -6439,7 +6553,9 @@ let organizedTickerData = {
         "afterHours": "36.5999",
         "preMarket": "36.08"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BBBY": {
     "priceHistory": {
@@ -6488,7 +6604,9 @@ let organizedTickerData = {
         "afterHours": "0.1",
         "preMarket": "0.126"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BBWI": {
     "priceHistory": {
@@ -6600,7 +6718,9 @@ let organizedTickerData = {
         "afterHours": "33.89",
         "preMarket": "32.83"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BBY": {
     "priceHistory": {
@@ -6712,7 +6832,9 @@ let organizedTickerData = {
         "afterHours": "73.6",
         "preMarket": "70.94"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "BCC": {
     "priceHistory": {
@@ -6824,7 +6946,9 @@ let organizedTickerData = {
         "afterHours": "112.39",
         "preMarket": "109.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BDX": {
     "priceHistory": {
@@ -6936,7 +7060,9 @@ let organizedTickerData = {
         "afterHours": "238.25",
         "preMarket": "236.25"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BECN": {
     "priceHistory": {
@@ -7048,7 +7174,9 @@ let organizedTickerData = {
         "afterHours": "82.9",
         "preMarket": "80.54"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BEN": {
     "priceHistory": {
@@ -7160,7 +7288,9 @@ let organizedTickerData = {
         "afterHours": "25.63",
         "preMarket": "24.8"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BERY": {
     "priceHistory": {
@@ -7272,7 +7402,9 @@ let organizedTickerData = {
         "afterHours": "66.99",
         "preMarket": "65.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BHF": {
     "priceHistory": {
@@ -7384,7 +7516,9 @@ let organizedTickerData = {
         "afterHours": "52.61",
         "preMarket": "51.63"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BIIB": {
     "priceHistory": {
@@ -7496,7 +7630,9 @@ let organizedTickerData = {
         "afterHours": "234.64",
         "preMarket": "233.95"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BJ": {
     "priceHistory": {
@@ -7608,7 +7744,9 @@ let organizedTickerData = {
         "afterHours": "65.59",
         "preMarket": "64.73"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BK": {
     "priceHistory": {
@@ -7720,7 +7858,9 @@ let organizedTickerData = {
         "afterHours": "48.71",
         "preMarket": "48.35"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BKNG": {
     "priceHistory": {
@@ -7832,7 +7972,9 @@ let organizedTickerData = {
         "afterHours": "3159.56",
         "preMarket": "3125.29"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BKR": {
     "priceHistory": {
@@ -7944,7 +8086,9 @@ let organizedTickerData = {
         "afterHours": "33.89",
         "preMarket": "33.68"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BLDR": {
     "priceHistory": {
@@ -8056,7 +8200,9 @@ let organizedTickerData = {
         "afterHours": "142.99",
         "preMarket": "133.32"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BLK": {
     "priceHistory": {
@@ -8168,7 +8314,9 @@ let organizedTickerData = {
         "afterHours": "756.35",
         "preMarket": "748.88"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BMY": {
     "priceHistory": {
@@ -8280,7 +8428,9 @@ let organizedTickerData = {
         "afterHours": "50.14",
         "preMarket": "49.7"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "BSX": {
     "priceHistory": {
@@ -8392,7 +8542,9 @@ let organizedTickerData = {
         "afterHours": "56.14",
         "preMarket": "55.92"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BURL": {
     "priceHistory": {
@@ -8504,7 +8656,9 @@ let organizedTickerData = {
         "afterHours": "174.06",
         "preMarket": "169.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BWA": {
     "priceHistory": {
@@ -8616,7 +8770,9 @@ let organizedTickerData = {
         "afterHours": "33.95",
         "preMarket": "33.68"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "BX": {
     "priceHistory": {
@@ -8728,7 +8884,9 @@ let organizedTickerData = {
         "afterHours": "114.39",
         "preMarket": "112.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "C": {
     "priceHistory": {
@@ -8840,7 +8998,9 @@ let organizedTickerData = {
         "afterHours": "47.25",
         "preMarket": "46.24"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "CAG": {
     "priceHistory": {
@@ -8952,7 +9112,9 @@ let organizedTickerData = {
         "afterHours": "28.36",
         "preMarket": "28.32"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CAH": {
     "priceHistory": {
@@ -9064,7 +9226,9 @@ let organizedTickerData = {
         "afterHours": "106.95",
         "preMarket": "107.005"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "CAR": {
     "priceHistory": {
@@ -9176,7 +9340,9 @@ let organizedTickerData = {
         "afterHours": "195.71",
         "preMarket": "182.69"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CARR": {
     "priceHistory": {
@@ -9288,7 +9454,9 @@ let organizedTickerData = {
         "afterHours": "53.22",
         "preMarket": "52.13"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CASY": {
     "priceHistory": {
@@ -9400,7 +9568,9 @@ let organizedTickerData = {
         "afterHours": "276.31",
         "preMarket": "276.13"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CAT": {
     "priceHistory": {
@@ -9512,7 +9682,9 @@ let organizedTickerData = {
         "afterHours": "257.0",
         "preMarket": "250.72"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "CBRE": {
     "priceHistory": {
@@ -9624,7 +9796,9 @@ let organizedTickerData = {
         "afterHours": "81.41",
         "preMarket": "79.34"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CCK": {
     "priceHistory": {
@@ -9736,7 +9910,9 @@ let organizedTickerData = {
         "afterHours": "88.04",
         "preMarket": "85.85"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CDW": {
     "priceHistory": {
@@ -9848,7 +10024,9 @@ let organizedTickerData = {
         "afterHours": "212.56",
         "preMarket": "210.45"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CE": {
     "priceHistory": {
@@ -9960,7 +10138,9 @@ let organizedTickerData = {
         "afterHours": "142.0",
         "preMarket": "138.34"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CEG": {
     "priceHistory": {
@@ -10072,7 +10252,9 @@ let organizedTickerData = {
         "afterHours": "119.88",
         "preMarket": "120.62"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CF": {
     "priceHistory": {
@@ -10184,7 +10366,9 @@ let organizedTickerData = {
         "afterHours": "76.31",
         "preMarket": "75.48"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CFG": {
     "priceHistory": {
@@ -10296,7 +10480,9 @@ let organizedTickerData = {
         "afterHours": "28.36",
         "preMarket": "27.27"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CHK": {
     "priceHistory": {
@@ -10408,7 +10594,9 @@ let organizedTickerData = {
         "afterHours": "80.6",
         "preMarket": "79.95"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CHRW": {
     "priceHistory": {
@@ -10520,7 +10708,9 @@ let organizedTickerData = {
         "afterHours": "83.26",
         "preMarket": "82.05"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CHTR": {
     "priceHistory": {
@@ -10632,7 +10822,9 @@ let organizedTickerData = {
         "afterHours": "401.87",
         "preMarket": "400.13"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "CHWY": {
     "priceHistory": {
@@ -10744,7 +10936,9 @@ let organizedTickerData = {
         "afterHours": "18.15",
         "preMarket": "17.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CI": {
     "priceHistory": {
@@ -10856,7 +11050,9 @@ let organizedTickerData = {
         "afterHours": "269.5",
         "preMarket": "263.9"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "CL": {
     "priceHistory": {
@@ -10968,7 +11164,9 @@ let organizedTickerData = {
         "afterHours": "78.7",
         "preMarket": "78.86"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CLF": {
     "priceHistory": {
@@ -11080,7 +11278,9 @@ let organizedTickerData = {
         "afterHours": "18.3199",
         "preMarket": "17.18"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CMC": {
     "priceHistory": {
@@ -11192,7 +11392,9 @@ let organizedTickerData = {
         "afterHours": "46.71",
         "preMarket": "45.47"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CMCSA": {
     "priceHistory": {
@@ -11304,7 +11506,9 @@ let organizedTickerData = {
         "afterHours": "42.22",
         "preMarket": "42.4"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "CMG": {
     "priceHistory": {
@@ -11416,7 +11620,9 @@ let organizedTickerData = {
         "afterHours": "2233.83",
         "preMarket": "2199.81"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CMI": {
     "priceHistory": {
@@ -11528,7 +11734,9 @@ let organizedTickerData = {
         "afterHours": "226.31",
         "preMarket": "225.05"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CMS": {
     "priceHistory": {
@@ -11640,7 +11848,9 @@ let organizedTickerData = {
         "afterHours": "58.4",
         "preMarket": "56.71"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CNC": {
     "priceHistory": {
@@ -11752,7 +11962,9 @@ let organizedTickerData = {
         "afterHours": "74.93",
         "preMarket": "73.54"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "CNP": {
     "priceHistory": {
@@ -11864,7 +12076,9 @@ let organizedTickerData = {
         "afterHours": "28.79",
         "preMarket": "28.27"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "COF": {
     "priceHistory": {
@@ -11976,7 +12190,9 @@ let organizedTickerData = {
         "afterHours": "113.89",
         "preMarket": "111.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "COMM": {
     "priceHistory": {
@@ -12088,7 +12304,9 @@ let organizedTickerData = {
         "afterHours": "1.8901",
         "preMarket": "1.69"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "COP": {
     "priceHistory": {
@@ -12200,7 +12418,9 @@ let organizedTickerData = {
         "afterHours": "115.23",
         "preMarket": "115.9711"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "COR": {
     "priceHistory": {
@@ -12312,7 +12532,9 @@ let organizedTickerData = {
         "afterHours": "204.09",
         "preMarket": "203.49"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": false
   },
   "COST": {
     "priceHistory": {
@@ -12424,7 +12646,9 @@ let organizedTickerData = {
         "afterHours": "596.48",
         "preMarket": "592.7"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "CPB": {
     "priceHistory": {
@@ -12536,7 +12760,9 @@ let organizedTickerData = {
         "afterHours": "40.83",
         "preMarket": "40.19"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CPNG": {
     "priceHistory": {
@@ -12648,7 +12874,9 @@ let organizedTickerData = {
         "afterHours": "15.8",
         "preMarket": "15.38"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CRM": {
     "priceHistory": {
@@ -12760,7 +12988,9 @@ let organizedTickerData = {
         "afterHours": "260.0",
         "preMarket": "249.86"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CSCO": {
     "priceHistory": {
@@ -12872,7 +13102,9 @@ let organizedTickerData = {
         "afterHours": "48.65",
         "preMarket": "48.37"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "CSX": {
     "priceHistory": {
@@ -12984,7 +13216,9 @@ let organizedTickerData = {
         "afterHours": "33.46",
         "preMarket": "32.43"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CTAS": {
     "priceHistory": {
@@ -13096,7 +13330,9 @@ let organizedTickerData = {
         "afterHours": "558.25",
         "preMarket": "553.25"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CTRA": {
     "priceHistory": {
@@ -13208,7 +13444,9 @@ let organizedTickerData = {
         "afterHours": "26.28",
         "preMarket": "26.26"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CTSH": {
     "priceHistory": {
@@ -13320,7 +13558,9 @@ let organizedTickerData = {
         "afterHours": "70.82",
         "preMarket": "70.42"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CTVA": {
     "priceHistory": {
@@ -13432,7 +13672,9 @@ let organizedTickerData = {
         "afterHours": "46.2",
         "preMarket": "45.42"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CVNA": {
     "priceHistory": {
@@ -13544,7 +13786,9 @@ let organizedTickerData = {
         "afterHours": "35.2",
         "preMarket": "31.49"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CVS": {
     "priceHistory": {
@@ -13656,7 +13900,9 @@ let organizedTickerData = {
         "afterHours": "68.55",
         "preMarket": "67.8"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "CVX": {
     "priceHistory": {
@@ -13768,7 +14014,9 @@ let organizedTickerData = {
         "afterHours": "144.97",
         "preMarket": "144.0"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "CYH": {
     "priceHistory": {
@@ -13880,7 +14128,9 @@ let organizedTickerData = {
         "afterHours": "2.6",
         "preMarket": "2.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "CZR": {
     "priceHistory": {
@@ -13992,7 +14242,9 @@ let organizedTickerData = {
         "afterHours": "46.95",
         "preMarket": "44.7"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "D": {
     "priceHistory": {
@@ -14104,7 +14356,9 @@ let organizedTickerData = {
         "afterHours": "46.65",
         "preMarket": "45.13"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DAL": {
     "priceHistory": {
@@ -14216,7 +14470,9 @@ let organizedTickerData = {
         "afterHours": "38.15",
         "preMarket": "37.0"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "DAN": {
     "priceHistory": {
@@ -14328,7 +14584,9 @@ let organizedTickerData = {
         "afterHours": "13.69",
         "preMarket": "13.14"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DCP": {
     "priceHistory": {
@@ -14386,7 +14644,9 @@ let organizedTickerData = {
         "afterHours": "41.59",
         "preMarket": "41.25"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DD": {
     "priceHistory": {
@@ -14498,7 +14758,9 @@ let organizedTickerData = {
         "afterHours": "72.41",
         "preMarket": "71.59"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DE": {
     "priceHistory": {
@@ -14610,7 +14872,9 @@ let organizedTickerData = {
         "afterHours": "368.81",
         "preMarket": "365.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DELL": {
     "priceHistory": {
@@ -14722,7 +14986,9 @@ let organizedTickerData = {
         "afterHours": "71.3",
         "preMarket": "72.7"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "DFS": {
     "priceHistory": {
@@ -14834,7 +15100,9 @@ let organizedTickerData = {
         "afterHours": "96.0",
         "preMarket": "93.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DG": {
     "priceHistory": {
@@ -14946,7 +15214,9 @@ let organizedTickerData = {
         "afterHours": "134.97",
         "preMarket": "131.33"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DGX": {
     "priceHistory": {
@@ -15058,7 +15328,9 @@ let organizedTickerData = {
         "afterHours": "136.17",
         "preMarket": "137.35"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DHI": {
     "priceHistory": {
@@ -15170,7 +15442,9 @@ let organizedTickerData = {
         "afterHours": "130.86",
         "preMarket": "127.67"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DHR": {
     "priceHistory": {
@@ -15282,7 +15556,9 @@ let organizedTickerData = {
         "afterHours": "223.48",
         "preMarket": "223.31"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DINO": {
     "priceHistory": {
@@ -15394,7 +15670,9 @@ let organizedTickerData = {
         "afterHours": "54.34",
         "preMarket": "52.43"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DIS": {
     "priceHistory": {
@@ -15506,7 +15784,9 @@ let organizedTickerData = {
         "afterHours": "92.5",
         "preMarket": "93.0"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "DISH": {
     "priceHistory": {
@@ -15618,7 +15898,9 @@ let organizedTickerData = {
         "afterHours": "3.86",
         "preMarket": "3.58"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DK": {
     "priceHistory": {
@@ -15730,7 +16012,9 @@ let organizedTickerData = {
         "afterHours": "27.75",
         "preMarket": "27.18"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DKS": {
     "priceHistory": {
@@ -15842,7 +16126,9 @@ let organizedTickerData = {
         "afterHours": "138.4",
         "preMarket": "130.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DLTR": {
     "priceHistory": {
@@ -15954,7 +16240,9 @@ let organizedTickerData = {
         "afterHours": "126.28",
         "preMarket": "123.8676"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DOV": {
     "priceHistory": {
@@ -16066,7 +16354,9 @@ let organizedTickerData = {
         "afterHours": "143.21",
         "preMarket": "141.58"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DOW": {
     "priceHistory": {
@@ -16178,7 +16468,9 @@ let organizedTickerData = {
         "afterHours": "52.3",
         "preMarket": "51.85"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "DRI": {
     "priceHistory": {
@@ -16290,7 +16582,9 @@ let organizedTickerData = {
         "afterHours": "159.91",
         "preMarket": "156.48"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DTE": {
     "priceHistory": {
@@ -16402,7 +16696,9 @@ let organizedTickerData = {
         "afterHours": "108.17",
         "preMarket": "104.13"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DUK": {
     "priceHistory": {
@@ -16514,7 +16810,9 @@ let organizedTickerData = {
         "afterHours": "92.69",
         "preMarket": "92.38"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DVA": {
     "priceHistory": {
@@ -16626,7 +16924,9 @@ let organizedTickerData = {
         "afterHours": "104.31",
         "preMarket": "101.49"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DVN": {
     "priceHistory": {
@@ -16738,7 +17038,9 @@ let organizedTickerData = {
         "afterHours": "45.11",
         "preMarket": "45.1"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "DXC": {
     "priceHistory": {
@@ -16850,7 +17152,9 @@ let organizedTickerData = {
         "afterHours": "23.64",
         "preMarket": "23.02"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EBAY": {
     "priceHistory": {
@@ -16962,7 +17266,9 @@ let organizedTickerData = {
         "afterHours": "41.8",
         "preMarket": "40.93"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ECL": {
     "priceHistory": {
@@ -17074,7 +17380,9 @@ let organizedTickerData = {
         "afterHours": "192.4",
         "preMarket": "191.66"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ED": {
     "priceHistory": {
@@ -17186,7 +17494,9 @@ let organizedTickerData = {
         "afterHours": "91.68",
         "preMarket": "90.32"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EIX": {
     "priceHistory": {
@@ -17298,7 +17608,9 @@ let organizedTickerData = {
         "afterHours": "67.48",
         "preMarket": "67.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EL": {
     "priceHistory": {
@@ -17410,7 +17722,9 @@ let organizedTickerData = {
         "afterHours": "132.99",
         "preMarket": "127.7"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ELV": {
     "priceHistory": {
@@ -17522,7 +17836,9 @@ let organizedTickerData = {
         "afterHours": "483.12",
         "preMarket": "478.42"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "EME": {
     "priceHistory": {
@@ -17634,7 +17950,9 @@ let organizedTickerData = {
         "afterHours": "214.32",
         "preMarket": "212.15"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EMN": {
     "priceHistory": {
@@ -17746,7 +18064,9 @@ let organizedTickerData = {
         "afterHours": "85.46",
         "preMarket": "83.96"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EMR": {
     "priceHistory": {
@@ -17858,7 +18178,9 @@ let organizedTickerData = {
         "afterHours": "90.02",
         "preMarket": "89.37"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ENLC": {
     "priceHistory": {
@@ -17970,7 +18292,9 @@ let organizedTickerData = {
         "afterHours": "13.93",
         "preMarket": "13.98"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EOG": {
     "priceHistory": {
@@ -18082,7 +18406,9 @@ let organizedTickerData = {
         "afterHours": "123.7",
         "preMarket": "123.15"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EPD": {
     "priceHistory": {
@@ -18194,7 +18520,9 @@ let organizedTickerData = {
         "afterHours": "26.9008",
         "preMarket": "26.77"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "EQH": {
     "priceHistory": {
@@ -18306,7 +18634,9 @@ let organizedTickerData = {
         "afterHours": "33.0",
         "preMarket": "30.65"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EQIX": {
     "priceHistory": {
@@ -18418,7 +18748,9 @@ let organizedTickerData = {
         "afterHours": "824.42",
         "preMarket": "816.55"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EQT": {
     "priceHistory": {
@@ -18530,7 +18862,9 @@ let organizedTickerData = {
         "afterHours": "40.24",
         "preMarket": "39.81"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ES": {
     "priceHistory": {
@@ -18642,7 +18976,9 @@ let organizedTickerData = {
         "afterHours": "60.78",
         "preMarket": "59.51"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ET": {
     "priceHistory": {
@@ -18754,7 +19090,9 @@ let organizedTickerData = {
         "afterHours": "13.93",
         "preMarket": "13.88"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ETR": {
     "priceHistory": {
@@ -18866,7 +19204,9 @@ let organizedTickerData = {
         "afterHours": "102.03",
         "preMarket": "101.4"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EXC": {
     "priceHistory": {
@@ -18978,7 +19318,9 @@ let organizedTickerData = {
         "afterHours": "38.99",
         "preMarket": "38.45"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EXPD": {
     "priceHistory": {
@@ -19090,7 +19432,9 @@ let organizedTickerData = {
         "afterHours": "120.09",
         "preMarket": "120.59"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "EXPE": {
     "priceHistory": {
@@ -19202,7 +19546,9 @@ let organizedTickerData = {
         "afterHours": "139.31",
         "preMarket": "136.18"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "F": {
     "priceHistory": {
@@ -19314,7 +19660,9 @@ let organizedTickerData = {
         "afterHours": "10.59",
         "preMarket": "10.28"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "FAF": {
     "priceHistory": {
@@ -19426,7 +19774,9 @@ let organizedTickerData = {
         "afterHours": "60.42",
         "preMarket": "59.18"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "FANG": {
     "priceHistory": {
@@ -19538,7 +19888,9 @@ let organizedTickerData = {
         "afterHours": "154.27",
         "preMarket": "154.3"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "FBIN": {
     "priceHistory": {
@@ -19650,7 +20002,9 @@ let organizedTickerData = {
         "afterHours": "71.27",
         "preMarket": "68.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "FCX": {
     "priceHistory": {
@@ -19762,7 +20116,9 @@ let organizedTickerData = {
         "afterHours": "39.4099",
         "preMarket": "37.61"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "FDX": {
     "priceHistory": {
@@ -19874,7 +20230,9 @@ let organizedTickerData = {
         "afterHours": "265.1",
         "preMarket": "259.15"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "FE": {
     "priceHistory": {
@@ -19986,7 +20344,9 @@ let organizedTickerData = {
         "afterHours": "37.36",
         "preMarket": "36.93"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "FIS": {
     "priceHistory": {
@@ -20098,7 +20458,9 @@ let organizedTickerData = {
         "afterHours": "59.99",
         "preMarket": "58.64"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "FISV": {
     "priceHistory": {
@@ -20156,7 +20518,9 @@ let organizedTickerData = {
         "afterHours": "112.82",
         "preMarket": "112.3"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "FITB": {
     "priceHistory": {
@@ -20268,7 +20632,9 @@ let organizedTickerData = {
         "afterHours": "30.55",
         "preMarket": "28.97"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "FL": {
     "priceHistory": {
@@ -20380,7 +20746,9 @@ let organizedTickerData = {
         "afterHours": "29.76",
         "preMarket": "26.9"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "FLR": {
     "priceHistory": {
@@ -20492,7 +20860,9 @@ let organizedTickerData = {
         "afterHours": "39.0",
         "preMarket": "38.63"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "FMCC": {
     "priceHistory": {
@@ -20604,7 +20974,9 @@ let organizedTickerData = {
         "afterHours": "0.66",
         "preMarket": "0.66297"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": false
   },
   "FNF": {
     "priceHistory": {
@@ -20716,7 +21088,9 @@ let organizedTickerData = {
         "afterHours": "44.96",
         "preMarket": "44.75"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "FNMA": {
     "priceHistory": {
@@ -20828,7 +21202,9 @@ let organizedTickerData = {
         "afterHours": "0.7434",
         "preMarket": "0.742"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": false
   },
   "FOXA": {
     "priceHistory": {
@@ -20940,7 +21316,9 @@ let organizedTickerData = {
         "afterHours": "30.2",
         "preMarket": "29.66"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GD": {
     "priceHistory": {
@@ -21052,7 +21430,9 @@ let organizedTickerData = {
         "afterHours": "249.69",
         "preMarket": "247.09"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GE": {
     "priceHistory": {
@@ -21164,7 +21544,9 @@ let organizedTickerData = {
         "afterHours": "122.7",
         "preMarket": "121.79"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "GILD": {
     "priceHistory": {
@@ -21276,7 +21658,9 @@ let organizedTickerData = {
         "afterHours": "77.7",
         "preMarket": "76.6"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GIS": {
     "priceHistory": {
@@ -21388,7 +21772,9 @@ let organizedTickerData = {
         "afterHours": "64.13",
         "preMarket": "63.66"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GLP": {
     "priceHistory": {
@@ -21500,7 +21886,9 @@ let organizedTickerData = {
         "afterHours": "37.36",
         "preMarket": "36.43"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GLW": {
     "priceHistory": {
@@ -21612,7 +22000,9 @@ let organizedTickerData = {
         "afterHours": "28.5507",
         "preMarket": "28.67"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GM": {
     "priceHistory": {
@@ -21724,7 +22114,9 @@ let organizedTickerData = {
         "afterHours": "32.36",
         "preMarket": "31.5"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "GNW": {
     "priceHistory": {
@@ -21836,7 +22228,9 @@ let organizedTickerData = {
         "afterHours": "6.03",
         "preMarket": "5.87"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GOOGL": {
     "priceHistory": {
@@ -21948,7 +22342,9 @@ let organizedTickerData = {
         "afterHours": "131.86",
         "preMarket": "132.72"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "GPC": {
     "priceHistory": {
@@ -22060,7 +22456,9 @@ let organizedTickerData = {
         "afterHours": "134.7",
         "preMarket": "133.06"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GPI": {
     "priceHistory": {
@@ -22172,7 +22570,9 @@ let organizedTickerData = {
         "afterHours": "291.56",
         "preMarket": "281.47"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GPK": {
     "priceHistory": {
@@ -22284,7 +22684,9 @@ let organizedTickerData = {
         "afterHours": "23.09",
         "preMarket": "22.69"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GPN": {
     "priceHistory": {
@@ -22396,7 +22798,9 @@ let organizedTickerData = {
         "afterHours": "119.79",
         "preMarket": "116.23"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GPS": {
     "priceHistory": {
@@ -22508,7 +22912,9 @@ let organizedTickerData = {
         "afterHours": "21.0999",
         "preMarket": "20.1"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GS": {
     "priceHistory": {
@@ -22620,7 +23026,9 @@ let organizedTickerData = {
         "afterHours": "348.7",
         "preMarket": "341.46"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "GT": {
     "priceHistory": {
@@ -22732,7 +23140,9 @@ let organizedTickerData = {
         "afterHours": "14.23",
         "preMarket": "13.88"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GWW": {
     "priceHistory": {
@@ -22844,7 +23254,9 @@ let organizedTickerData = {
         "afterHours": "803.58",
         "preMarket": "785.85"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "GXO": {
     "priceHistory": {
@@ -22956,7 +23368,9 @@ let organizedTickerData = {
         "afterHours": "58.15",
         "preMarket": "56.28"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HAL": {
     "priceHistory": {
@@ -23068,7 +23482,9 @@ let organizedTickerData = {
         "afterHours": "37.6",
         "preMarket": "37.05"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HBAN": {
     "priceHistory": {
@@ -23180,7 +23596,9 @@ let organizedTickerData = {
         "afterHours": "11.75",
         "preMarket": "11.3"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HCA": {
     "priceHistory": {
@@ -23292,7 +23710,9 @@ let organizedTickerData = {
         "afterHours": "252.36",
         "preMarket": "250.47"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "HD": {
     "priceHistory": {
@@ -23404,7 +23824,9 @@ let organizedTickerData = {
         "afterHours": "319.74",
         "preMarket": "313.07"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "HES": {
     "priceHistory": {
@@ -23516,7 +23938,9 @@ let organizedTickerData = {
         "afterHours": "141.07",
         "preMarket": "140.47"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HIG": {
     "priceHistory": {
@@ -23628,7 +24052,9 @@ let organizedTickerData = {
         "afterHours": "77.81",
         "preMarket": "77.99"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HII": {
     "priceHistory": {
@@ -23740,7 +24166,9 @@ let organizedTickerData = {
         "afterHours": "238.74",
         "preMarket": "237.05"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HLT": {
     "priceHistory": {
@@ -23852,7 +24280,9 @@ let organizedTickerData = {
         "afterHours": "170.84",
         "preMarket": "167.52"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HON": {
     "priceHistory": {
@@ -23964,7 +24394,9 @@ let organizedTickerData = {
         "afterHours": "197.78",
         "preMarket": "196.2"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HPE": {
     "priceHistory": {
@@ -24076,7 +24508,9 @@ let organizedTickerData = {
         "afterHours": "17.13",
         "preMarket": "16.93"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HPQ": {
     "priceHistory": {
@@ -24188,7 +24622,9 @@ let organizedTickerData = {
         "afterHours": "29.51",
         "preMarket": "29.26"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "HRL": {
     "priceHistory": {
@@ -24300,7 +24736,9 @@ let organizedTickerData = {
         "afterHours": "31.33",
         "preMarket": "30.1981"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HSIC": {
     "priceHistory": {
@@ -24412,7 +24850,9 @@ let organizedTickerData = {
         "afterHours": "69.54",
         "preMarket": "66.84"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HSY": {
     "priceHistory": {
@@ -24524,7 +24964,9 @@ let organizedTickerData = {
         "afterHours": "191.02",
         "preMarket": "188.4"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HTZ": {
     "priceHistory": {
@@ -24636,7 +25078,9 @@ let organizedTickerData = {
         "afterHours": "9.1",
         "preMarket": "8.3"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "HUM": {
     "priceHistory": {
@@ -24748,7 +25192,9 @@ let organizedTickerData = {
         "afterHours": "497.24",
         "preMarket": "483.03"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "HUN": {
     "priceHistory": {
@@ -24860,7 +25306,9 @@ let organizedTickerData = {
         "afterHours": "25.34",
         "preMarket": "24.44"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "IBM": {
     "priceHistory": {
@@ -24972,7 +25420,9 @@ let organizedTickerData = {
         "afterHours": "160.77",
         "preMarket": "158.6"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "ICE": {
     "priceHistory": {
@@ -25084,7 +25534,9 @@ let organizedTickerData = {
         "afterHours": "114.24",
         "preMarket": "112.85"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "IEP": {
     "priceHistory": {
@@ -25196,7 +25648,9 @@ let organizedTickerData = {
         "afterHours": "17.07",
         "preMarket": "17.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "IFF": {
     "priceHistory": {
@@ -25308,7 +25762,9 @@ let organizedTickerData = {
         "afterHours": "76.7",
         "preMarket": "75.46"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "INGR": {
     "priceHistory": {
@@ -25420,7 +25876,9 @@ let organizedTickerData = {
         "afterHours": "104.57",
         "preMarket": "102.48"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "IP": {
     "priceHistory": {
@@ -25532,7 +25990,9 @@ let organizedTickerData = {
         "afterHours": "37.2",
         "preMarket": "37.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "IPG": {
     "priceHistory": {
@@ -25644,7 +26104,9 @@ let organizedTickerData = {
         "afterHours": "31.31",
         "preMarket": "30.74"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "IQV": {
     "priceHistory": {
@@ -25756,7 +26218,9 @@ let organizedTickerData = {
         "afterHours": "216.91",
         "preMarket": "214.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ITW": {
     "priceHistory": {
@@ -25868,7 +26332,9 @@ let organizedTickerData = {
         "afterHours": "245.24",
         "preMarket": "241.725"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "J": {
     "priceHistory": {
@@ -25980,7 +26446,9 @@ let organizedTickerData = {
         "afterHours": "130.17",
         "preMarket": "126.85"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "JBHT": {
     "priceHistory": {
@@ -26092,7 +26560,9 @@ let organizedTickerData = {
         "afterHours": "189.8",
         "preMarket": "185.31"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "JBL": {
     "priceHistory": {
@@ -26204,7 +26674,9 @@ let organizedTickerData = {
         "afterHours": "120.4",
         "preMarket": "114.79"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "JBLU": {
     "priceHistory": {
@@ -26316,7 +26788,9 @@ let organizedTickerData = {
         "afterHours": "4.62",
         "preMarket": "4.39"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "JLL": {
     "priceHistory": {
@@ -26428,7 +26902,9 @@ let organizedTickerData = {
         "afterHours": "160.97",
         "preMarket": "155.61"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "JNJ": {
     "priceHistory": {
@@ -26540,7 +27016,9 @@ let organizedTickerData = {
         "afterHours": "158.3",
         "preMarket": "155.36"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "JPM": {
     "priceHistory": {
@@ -26652,7 +27130,9 @@ let organizedTickerData = {
         "afterHours": "157.1",
         "preMarket": "155.96"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "JWN": {
     "priceHistory": {
@@ -26764,7 +27244,9 @@ let organizedTickerData = {
         "afterHours": "16.21",
         "preMarket": "15.63"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "JXN": {
     "priceHistory": {
@@ -26876,7 +27358,9 @@ let organizedTickerData = {
         "afterHours": "48.4",
         "preMarket": "47.33"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "K": {
     "priceHistory": {
@@ -26988,7 +27472,9 @@ let organizedTickerData = {
         "afterHours": "52.41",
         "preMarket": "52.47"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "KD": {
     "priceHistory": {
@@ -27100,7 +27586,9 @@ let organizedTickerData = {
         "afterHours": "18.5",
         "preMarket": "17.92"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "KDP": {
     "priceHistory": {
@@ -27212,7 +27700,9 @@ let organizedTickerData = {
         "afterHours": "32.17",
         "preMarket": "31.315"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "KEY": {
     "priceHistory": {
@@ -27324,7 +27814,9 @@ let organizedTickerData = {
         "afterHours": "13.31",
         "preMarket": "12.44"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "KHC": {
     "priceHistory": {
@@ -27436,7 +27928,9 @@ let organizedTickerData = {
         "afterHours": "35.56",
         "preMarket": "35.27"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "KKR": {
     "priceHistory": {
@@ -27548,7 +28042,9 @@ let organizedTickerData = {
         "afterHours": "73.99",
         "preMarket": "75.6"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "KLAC": {
     "priceHistory": {
@@ -27660,7 +28156,9 @@ let organizedTickerData = {
         "afterHours": "549.0",
         "preMarket": "543.24"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "KMB": {
     "priceHistory": {
@@ -27772,7 +28270,9 @@ let organizedTickerData = {
         "afterHours": "124.2",
         "preMarket": "124.04"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "KMI": {
     "priceHistory": {
@@ -27884,7 +28384,9 @@ let organizedTickerData = {
         "afterHours": "17.66",
         "preMarket": "17.55"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "KMX": {
     "priceHistory": {
@@ -27996,7 +28498,9 @@ let organizedTickerData = {
         "afterHours": "67.3",
         "preMarket": "63.75"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "KNX": {
     "priceHistory": {
@@ -28108,7 +28612,9 @@ let organizedTickerData = {
         "afterHours": "57.51",
         "preMarket": "53.79"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "KO": {
     "priceHistory": {
@@ -28220,7 +28726,9 @@ let organizedTickerData = {
         "afterHours": "58.67",
         "preMarket": "58.36"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "KR": {
     "priceHistory": {
@@ -28332,7 +28840,9 @@ let organizedTickerData = {
         "afterHours": "44.61",
         "preMarket": "44.45"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "KSS": {
     "priceHistory": {
@@ -28444,7 +28954,9 @@ let organizedTickerData = {
         "afterHours": "24.25",
         "preMarket": "23.66"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "L": {
     "priceHistory": {
@@ -28556,7 +29068,9 @@ let organizedTickerData = {
         "afterHours": "70.01",
         "preMarket": "70.08"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LAD": {
     "priceHistory": {
@@ -28668,7 +29182,9 @@ let organizedTickerData = {
         "afterHours": "277.59",
         "preMarket": "266.43"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LDOS": {
     "priceHistory": {
@@ -28780,7 +29296,9 @@ let organizedTickerData = {
         "afterHours": "108.94",
         "preMarket": "107.13"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LEA": {
     "priceHistory": {
@@ -28892,7 +29410,9 @@ let organizedTickerData = {
         "afterHours": "136.39",
         "preMarket": "133.3"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LEN": {
     "priceHistory": {
@@ -29004,7 +29524,9 @@ let organizedTickerData = {
         "afterHours": "131.58",
         "preMarket": "127.92"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LH": {
     "priceHistory": {
@@ -29116,7 +29638,9 @@ let organizedTickerData = {
         "afterHours": "218.97",
         "preMarket": "217.23"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LHX": {
     "priceHistory": {
@@ -29228,7 +29752,9 @@ let organizedTickerData = {
         "afterHours": "194.69",
         "preMarket": "190.87"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LKQ": {
     "priceHistory": {
@@ -29340,7 +29866,9 @@ let organizedTickerData = {
         "afterHours": "45.49",
         "preMarket": "44.69"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LLY": {
     "priceHistory": {
@@ -29452,7 +29980,9 @@ let organizedTickerData = {
         "afterHours": "586.0",
         "preMarket": "590.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LMT": {
     "priceHistory": {
@@ -29564,7 +30094,9 @@ let organizedTickerData = {
         "afterHours": "449.28",
         "preMarket": "449.0"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "LNC": {
     "priceHistory": {
@@ -29676,7 +30208,9 @@ let organizedTickerData = {
         "afterHours": "24.13",
         "preMarket": "23.68"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LNG": {
     "priceHistory": {
@@ -29788,7 +30322,9 @@ let organizedTickerData = {
         "afterHours": "180.0",
         "preMarket": "182.11"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LOW": {
     "priceHistory": {
@@ -29900,7 +30436,9 @@ let organizedTickerData = {
         "afterHours": "203.92",
         "preMarket": "198.9"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "LPLA": {
     "priceHistory": {
@@ -30012,7 +30550,9 @@ let organizedTickerData = {
         "afterHours": "221.99",
         "preMarket": "220.61"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LRCX": {
     "priceHistory": {
@@ -30124,7 +30664,9 @@ let organizedTickerData = {
         "afterHours": "722.08",
         "preMarket": "712.08"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LSTR": {
     "priceHistory": {
@@ -30236,7 +30778,9 @@ let organizedTickerData = {
         "afterHours": "176.35",
         "preMarket": "172.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LSXMA": {
     "priceHistory": {
@@ -30348,7 +30892,9 @@ let organizedTickerData = {
         "afterHours": "27.22",
         "preMarket": "27.2"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LULU": {
     "priceHistory": {
@@ -30460,7 +31006,9 @@ let organizedTickerData = {
         "afterHours": "467.17",
         "preMarket": "447.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LUMN": {
     "priceHistory": {
@@ -30572,7 +31120,9 @@ let organizedTickerData = {
         "afterHours": "1.48",
         "preMarket": "1.3"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LUV": {
     "priceHistory": {
@@ -30684,7 +31234,9 @@ let organizedTickerData = {
         "afterHours": "26.7",
         "preMarket": "25.74"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "LYV": {
     "priceHistory": {
@@ -30796,7 +31348,9 @@ let organizedTickerData = {
         "afterHours": "84.76",
         "preMarket": "84.19"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "M": {
     "priceHistory": {
@@ -30908,7 +31462,9 @@ let organizedTickerData = {
         "afterHours": "17.09",
         "preMarket": "15.92"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MA": {
     "priceHistory": {
@@ -31020,7 +31576,9 @@ let organizedTickerData = {
         "afterHours": "414.28",
         "preMarket": "413.25"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MAN": {
     "priceHistory": {
@@ -31132,7 +31690,9 @@ let organizedTickerData = {
         "afterHours": "75.87",
         "preMarket": "73.99"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MAR": {
     "priceHistory": {
@@ -31244,7 +31804,9 @@ let organizedTickerData = {
         "afterHours": "209.5",
         "preMarket": "202.75"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MAS": {
     "priceHistory": {
@@ -31356,7 +31918,9 @@ let organizedTickerData = {
         "afterHours": "62.16",
         "preMarket": "60.55"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MCD": {
     "priceHistory": {
@@ -31468,7 +32032,9 @@ let organizedTickerData = {
         "afterHours": "285.96",
         "preMarket": "282.98"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MCK": {
     "priceHistory": {
@@ -31580,7 +32146,9 @@ let organizedTickerData = {
         "afterHours": "464.65",
         "preMarket": "472.46"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MDLZ": {
     "priceHistory": {
@@ -31692,7 +32260,9 @@ let organizedTickerData = {
         "afterHours": "70.82",
         "preMarket": "71.22"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MET": {
     "priceHistory": {
@@ -31804,7 +32374,9 @@ let organizedTickerData = {
         "afterHours": "63.76",
         "preMarket": "63.39"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "META": {
     "priceHistory": {
@@ -31916,7 +32488,9 @@ let organizedTickerData = {
         "afterHours": "324.8784",
         "preMarket": "327.26"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "MGM": {
     "priceHistory": {
@@ -32028,7 +32602,9 @@ let organizedTickerData = {
         "afterHours": "40.72",
         "preMarket": "39.32"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MHK": {
     "priceHistory": {
@@ -32140,7 +32716,9 @@ let organizedTickerData = {
         "afterHours": "91.93",
         "preMarket": "88.3"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MKL": {
     "priceHistory": {
@@ -32252,7 +32830,9 @@ let organizedTickerData = {
         "afterHours": "1425.0",
         "preMarket": "1431.74"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MMC": {
     "priceHistory": {
@@ -32364,7 +32944,9 @@ let organizedTickerData = {
         "afterHours": "197.4",
         "preMarket": "198.93"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MMM": {
     "priceHistory": {
@@ -32476,7 +33058,9 @@ let organizedTickerData = {
         "afterHours": "99.85",
         "preMarket": "99.48"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MO": {
     "priceHistory": {
@@ -32588,7 +33172,9 @@ let organizedTickerData = {
         "afterHours": "42.62",
         "preMarket": "42.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MOH": {
     "priceHistory": {
@@ -32700,7 +33286,9 @@ let organizedTickerData = {
         "afterHours": "362.76",
         "preMarket": "364.87"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MOS": {
     "priceHistory": {
@@ -32812,7 +33400,9 @@ let organizedTickerData = {
         "afterHours": "36.9",
         "preMarket": "35.96"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MPC": {
     "priceHistory": {
@@ -32924,7 +33514,9 @@ let organizedTickerData = {
         "afterHours": "151.42",
         "preMarket": "149.15"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "MRK": {
     "priceHistory": {
@@ -33036,7 +33628,9 @@ let organizedTickerData = {
         "afterHours": "104.0001",
         "preMarket": "102.54"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "MRNA": {
     "priceHistory": {
@@ -33148,7 +33742,9 @@ let organizedTickerData = {
         "afterHours": "79.88",
         "preMarket": "78.09"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MRO": {
     "priceHistory": {
@@ -33260,7 +33856,9 @@ let organizedTickerData = {
         "afterHours": "25.56",
         "preMarket": "25.53"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MS": {
     "priceHistory": {
@@ -33372,7 +33970,9 @@ let organizedTickerData = {
         "afterHours": "81.0",
         "preMarket": "79.53"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "MSFT": {
     "priceHistory": {
@@ -33484,7 +34084,9 @@ let organizedTickerData = {
         "afterHours": "374.38",
         "preMarket": "378.68"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "MSI": {
     "priceHistory": {
@@ -33596,7 +34198,9 @@ let organizedTickerData = {
         "afterHours": "325.32",
         "preMarket": "323.66"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MTB": {
     "priceHistory": {
@@ -33708,7 +34312,9 @@ let organizedTickerData = {
         "afterHours": "132.8",
         "preMarket": "127.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MTZ": {
     "priceHistory": {
@@ -33820,7 +34426,9 @@ let organizedTickerData = {
         "afterHours": "63.12",
         "preMarket": "60.26"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MU": {
     "priceHistory": {
@@ -33932,7 +34540,9 @@ let organizedTickerData = {
         "afterHours": "75.94",
         "preMarket": "75.91"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "MUSA": {
     "priceHistory": {
@@ -34044,7 +34654,9 @@ let organizedTickerData = {
         "afterHours": "370.62",
         "preMarket": "370.32"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NCR": {
     "priceHistory": {
@@ -34138,7 +34750,9 @@ let organizedTickerData = {
         "afterHours": "27.01",
         "preMarket": "26.8"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NEE": {
     "priceHistory": {
@@ -34250,7 +34864,9 @@ let organizedTickerData = {
         "afterHours": "59.3",
         "preMarket": "58.65"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NEM": {
     "priceHistory": {
@@ -34362,7 +34978,9 @@ let organizedTickerData = {
         "afterHours": "41.32",
         "preMarket": "40.1"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NFLX": {
     "priceHistory": {
@@ -34474,7 +35092,9 @@ let organizedTickerData = {
         "afterHours": "465.5",
         "preMarket": "474.11"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NGL": {
     "priceHistory": {
@@ -34586,7 +35206,9 @@ let organizedTickerData = {
         "afterHours": "4.2",
         "preMarket": "4.39"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NKE": {
     "priceHistory": {
@@ -34698,7 +35320,9 @@ let organizedTickerData = {
         "afterHours": "113.48",
         "preMarket": "109.93"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "NOC": {
     "priceHistory": {
@@ -34810,7 +35434,9 @@ let organizedTickerData = {
         "afterHours": "478.88",
         "preMarket": "476.39"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NOW": {
     "priceHistory": {
@@ -34922,7 +35548,9 @@ let organizedTickerData = {
         "afterHours": "690.79",
         "preMarket": "684.35"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NRG": {
     "priceHistory": {
@@ -35034,7 +35662,9 @@ let organizedTickerData = {
         "afterHours": "48.37",
         "preMarket": "47.84"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NSC": {
     "priceHistory": {
@@ -35146,7 +35776,9 @@ let organizedTickerData = {
         "afterHours": "226.47",
         "preMarket": "220.05"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NSIT": {
     "priceHistory": {
@@ -35258,7 +35890,9 @@ let organizedTickerData = {
         "afterHours": "159.77",
         "preMarket": "151.4"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NTRS": {
     "priceHistory": {
@@ -35370,7 +36004,9 @@ let organizedTickerData = {
         "afterHours": "80.28",
         "preMarket": "79.25"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NUE": {
     "priceHistory": {
@@ -35482,7 +36118,9 @@ let organizedTickerData = {
         "afterHours": "170.41",
         "preMarket": "171.47"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NVDA": {
     "priceHistory": {
@@ -35594,7 +36232,9 @@ let organizedTickerData = {
         "afterHours": "468.1",
         "preMarket": "467.64"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NVR": {
     "priceHistory": {
@@ -35706,7 +36346,9 @@ let organizedTickerData = {
         "afterHours": "6320.35",
         "preMarket": "6155.39"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NWL": {
     "priceHistory": {
@@ -35818,7 +36460,9 @@ let organizedTickerData = {
         "afterHours": "8.1099",
         "preMarket": "7.6"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "NWSA": {
     "priceHistory": {
@@ -35930,7 +36574,9 @@ let organizedTickerData = {
         "afterHours": "22.15",
         "preMarket": "22.1"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "OC": {
     "priceHistory": {
@@ -36042,7 +36688,9 @@ let organizedTickerData = {
         "afterHours": "139.0",
         "preMarket": "135.58"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ODP": {
     "priceHistory": {
@@ -36154,7 +36802,9 @@ let organizedTickerData = {
         "afterHours": "45.99",
         "preMarket": "45.66"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "OKE": {
     "priceHistory": {
@@ -36266,7 +36916,9 @@ let organizedTickerData = {
         "afterHours": "69.87",
         "preMarket": "68.77"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "OLN": {
     "priceHistory": {
@@ -36378,7 +37030,9 @@ let organizedTickerData = {
         "afterHours": "48.34",
         "preMarket": "47.13"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "OMC": {
     "priceHistory": {
@@ -36490,7 +37144,9 @@ let organizedTickerData = {
         "afterHours": "81.8",
         "preMarket": "80.74"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "OMI": {
     "priceHistory": {
@@ -36602,7 +37258,9 @@ let organizedTickerData = {
         "afterHours": "21.64",
         "preMarket": "19.91"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ON": {
     "priceHistory": {
@@ -36714,7 +37372,9 @@ let organizedTickerData = {
         "afterHours": "74.3",
         "preMarket": "71.33"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "OPEN": {
     "priceHistory": {
@@ -36826,7 +37486,9 @@ let organizedTickerData = {
         "afterHours": "3.43",
         "preMarket": "3.03"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ORCL": {
     "priceHistory": {
@@ -36938,7 +37600,9 @@ let organizedTickerData = {
         "afterHours": "117.3",
         "preMarket": "115.95"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ORI": {
     "priceHistory": {
@@ -37050,7 +37714,9 @@ let organizedTickerData = {
         "afterHours": "29.5",
         "preMarket": "29.03"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ORLY": {
     "priceHistory": {
@@ -37162,7 +37828,9 @@ let organizedTickerData = {
         "afterHours": "980.52",
         "preMarket": "984.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "OSK": {
     "priceHistory": {
@@ -37274,7 +37942,9 @@ let organizedTickerData = {
         "afterHours": "99.97",
         "preMarket": "97.44"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "OTIS": {
     "priceHistory": {
@@ -37386,7 +38056,9 @@ let organizedTickerData = {
         "afterHours": "86.75",
         "preMarket": "85.8"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "OVV": {
     "priceHistory": {
@@ -37498,7 +38170,9 @@ let organizedTickerData = {
         "afterHours": "44.17",
         "preMarket": "44.4"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "OXY": {
     "priceHistory": {
@@ -37610,7 +38284,9 @@ let organizedTickerData = {
         "afterHours": "58.89",
         "preMarket": "59.4"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PAG": {
     "priceHistory": {
@@ -37722,7 +38398,9 @@ let organizedTickerData = {
         "afterHours": "154.1",
         "preMarket": "149.53"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PAGP": {
     "priceHistory": {
@@ -37834,7 +38512,9 @@ let organizedTickerData = {
         "afterHours": "16.34",
         "preMarket": "16.2"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "PARA": {
     "priceHistory": {
@@ -37946,7 +38626,9 @@ let organizedTickerData = {
         "afterHours": "15.85",
         "preMarket": "14.35"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PARR": {
     "priceHistory": {
@@ -38058,7 +38740,9 @@ let organizedTickerData = {
         "afterHours": "34.75",
         "preMarket": "34.21"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PBF": {
     "priceHistory": {
@@ -38170,7 +38854,9 @@ let organizedTickerData = {
         "afterHours": "45.11",
         "preMarket": "43.51"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PCAR": {
     "priceHistory": {
@@ -38282,7 +38968,9 @@ let organizedTickerData = {
         "afterHours": "93.18",
         "preMarket": "91.9"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PCG": {
     "priceHistory": {
@@ -38394,7 +39082,9 @@ let organizedTickerData = {
         "afterHours": "17.45",
         "preMarket": "17.18"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PEG": {
     "priceHistory": {
@@ -38506,7 +39196,9 @@ let organizedTickerData = {
         "afterHours": "63.5",
         "preMarket": "62.41"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PEP": {
     "priceHistory": {
@@ -38618,7 +39310,9 @@ let organizedTickerData = {
         "afterHours": "168.9",
         "preMarket": "168.26"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "PFE": {
     "priceHistory": {
@@ -38730,7 +39424,9 @@ let organizedTickerData = {
         "afterHours": "28.91",
         "preMarket": "30.45"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "PFG": {
     "priceHistory": {
@@ -38842,7 +39538,9 @@ let organizedTickerData = {
         "afterHours": "74.53",
         "preMarket": "73.68"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PFGC": {
     "priceHistory": {
@@ -38954,7 +39652,9 @@ let organizedTickerData = {
         "afterHours": "65.3",
         "preMarket": "65.06"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "PG": {
     "priceHistory": {
@@ -39066,7 +39766,9 @@ let organizedTickerData = {
         "afterHours": "152.66",
         "preMarket": "153.14"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "PGR": {
     "priceHistory": {
@@ -39178,7 +39880,9 @@ let organizedTickerData = {
         "afterHours": "162.46",
         "preMarket": "164.16"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "PH": {
     "priceHistory": {
@@ -39290,7 +39994,9 @@ let organizedTickerData = {
         "afterHours": "440.16",
         "preMarket": "433.11"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PHM": {
     "priceHistory": {
@@ -39402,7 +40108,9 @@ let organizedTickerData = {
         "afterHours": "91.0001",
         "preMarket": "88.47"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PII": {
     "priceHistory": {
@@ -39514,7 +40222,9 @@ let organizedTickerData = {
         "afterHours": "87.41",
         "preMarket": "82.45"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PKG": {
     "priceHistory": {
@@ -39626,7 +40336,9 @@ let organizedTickerData = {
         "afterHours": "169.71",
         "preMarket": "167.52"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PM": {
     "priceHistory": {
@@ -39738,7 +40450,9 @@ let organizedTickerData = {
         "afterHours": "93.62",
         "preMarket": "93.49"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PNC": {
     "priceHistory": {
@@ -39850,7 +40564,9 @@ let organizedTickerData = {
         "afterHours": "139.0",
         "preMarket": "133.69"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PPG": {
     "priceHistory": {
@@ -39962,7 +40678,9 @@ let organizedTickerData = {
         "afterHours": "143.63",
         "preMarket": "141.73"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PPL": {
     "priceHistory": {
@@ -40074,7 +40792,9 @@ let organizedTickerData = {
         "afterHours": "26.48",
         "preMarket": "26.1"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PRU": {
     "priceHistory": {
@@ -40186,7 +40906,9 @@ let organizedTickerData = {
         "afterHours": "98.0",
         "preMarket": "97.42"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "PSX": {
     "priceHistory": {
@@ -40298,7 +41020,9 @@ let organizedTickerData = {
         "afterHours": "131.0",
         "preMarket": "129.0"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "PVH": {
     "priceHistory": {
@@ -40410,7 +41134,9 @@ let organizedTickerData = {
         "afterHours": "101.13",
         "preMarket": "98.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PWR": {
     "priceHistory": {
@@ -40522,7 +41248,9 @@ let organizedTickerData = {
         "afterHours": "191.39",
         "preMarket": "187.81"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PXD": {
     "priceHistory": {
@@ -40634,7 +41362,9 @@ let organizedTickerData = {
         "afterHours": "232.15",
         "preMarket": "231.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "PYPL": {
     "priceHistory": {
@@ -40746,7 +41476,9 @@ let organizedTickerData = {
         "afterHours": "59.8499",
         "preMarket": "57.76"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "QCOM": {
     "priceHistory": {
@@ -40858,7 +41590,9 @@ let organizedTickerData = {
         "afterHours": "130.0",
         "preMarket": "129.1"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "QRTEA": {
     "priceHistory": {
@@ -40970,7 +41704,9 @@ let organizedTickerData = {
         "afterHours": "0.9145",
         "preMarket": "0.79"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "R": {
     "priceHistory": {
@@ -41082,7 +41818,9 @@ let organizedTickerData = {
         "afterHours": "108.2",
         "preMarket": "107.14"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "RAD": {
     "priceHistory": {
@@ -41176,7 +41914,9 @@ let organizedTickerData = {
         "afterHours": "0.4519",
         "preMarket": "0.448"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "REGN": {
     "priceHistory": {
@@ -41288,7 +42028,9 @@ let organizedTickerData = {
         "afterHours": "814.86",
         "preMarket": "824.94"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "RF": {
     "priceHistory": {
@@ -41400,7 +42142,9 @@ let organizedTickerData = {
         "afterHours": "17.57",
         "preMarket": "16.68"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "RGA": {
     "priceHistory": {
@@ -41512,7 +42256,9 @@ let organizedTickerData = {
         "afterHours": "163.48",
         "preMarket": "162.26"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "RHI": {
     "priceHistory": {
@@ -41624,7 +42370,9 @@ let organizedTickerData = {
         "afterHours": "83.37",
         "preMarket": "81.76"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "RJF": {
     "priceHistory": {
@@ -41736,7 +42484,9 @@ let organizedTickerData = {
         "afterHours": "107.92",
         "preMarket": "106.91"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ROK": {
     "priceHistory": {
@@ -41848,7 +42598,9 @@ let organizedTickerData = {
         "afterHours": "281.47",
         "preMarket": "275.69"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ROST": {
     "priceHistory": {
@@ -41960,7 +42712,9 @@ let organizedTickerData = {
         "afterHours": "132.14",
         "preMarket": "130.87"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "RS": {
     "priceHistory": {
@@ -42072,7 +42826,9 @@ let organizedTickerData = {
         "afterHours": "278.91",
         "preMarket": "276.4"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "RSG": {
     "priceHistory": {
@@ -42184,7 +42940,9 @@ let organizedTickerData = {
         "afterHours": "163.92",
         "preMarket": "161.96"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "RTX": {
     "priceHistory": {
@@ -42296,7 +43054,9 @@ let organizedTickerData = {
         "afterHours": "82.29",
         "preMarket": "81.44"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "SAH": {
     "priceHistory": {
@@ -42408,7 +43168,9 @@ let organizedTickerData = {
         "afterHours": "53.45",
         "preMarket": "51.2"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SAIC": {
     "priceHistory": {
@@ -42520,7 +43282,9 @@ let organizedTickerData = {
         "afterHours": "122.7",
         "preMarket": "117.7"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SANM": {
     "priceHistory": {
@@ -42632,7 +43396,9 @@ let organizedTickerData = {
         "afterHours": "50.38",
         "preMarket": "49.88"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SBUX": {
     "priceHistory": {
@@ -42744,7 +43510,9 @@ let organizedTickerData = {
         "afterHours": "99.29",
         "preMarket": "99.35"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SCHW": {
     "priceHistory": {
@@ -42856,7 +43624,9 @@ let organizedTickerData = {
         "afterHours": "63.39",
         "preMarket": "61.32"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SEB": {
     "priceHistory": {
@@ -42968,7 +43738,9 @@ let organizedTickerData = {
         "afterHours": "3538.0",
         "preMarket": "3510.95"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SHW": {
     "priceHistory": {
@@ -43080,7 +43852,9 @@ let organizedTickerData = {
         "afterHours": "282.33",
         "preMarket": "278.18"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SIVBQ": {
     "priceHistory": {
@@ -43165,7 +43939,9 @@ let organizedTickerData = {
         "afterHours": "0.0201",
         "preMarket": "0.001"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": false
   },
   "SJM": {
     "priceHistory": {
@@ -43277,7 +44053,9 @@ let organizedTickerData = {
         "afterHours": "111.5",
         "preMarket": "109.85"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SKX": {
     "priceHistory": {
@@ -43389,7 +44167,9 @@ let organizedTickerData = {
         "afterHours": "59.15",
         "preMarket": "58.86"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SNEX": {
     "priceHistory": {
@@ -43501,7 +44281,9 @@ let organizedTickerData = {
         "afterHours": "61.15",
         "preMarket": "60.65"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "SNX": {
     "priceHistory": {
@@ -43613,7 +44395,9 @@ let organizedTickerData = {
         "afterHours": "98.72",
         "preMarket": "98.63"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "SO": {
     "priceHistory": {
@@ -43725,7 +44509,9 @@ let organizedTickerData = {
         "afterHours": "71.1",
         "preMarket": "71.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SON": {
     "priceHistory": {
@@ -43837,7 +44623,9 @@ let organizedTickerData = {
         "afterHours": "55.94",
         "preMarket": "55.03"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SPGI": {
     "priceHistory": {
@@ -43949,7 +44737,9 @@ let organizedTickerData = {
         "afterHours": "422.01",
         "preMarket": "416.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SPTN": {
     "priceHistory": {
@@ -44061,7 +44851,9 @@ let organizedTickerData = {
         "afterHours": "22.56",
         "preMarket": "22.28"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SQ": {
     "priceHistory": {
@@ -44173,7 +44965,9 @@ let organizedTickerData = {
         "afterHours": "65.08",
         "preMarket": "64.05"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SRE": {
     "priceHistory": {
@@ -44285,7 +45079,9 @@ let organizedTickerData = {
         "afterHours": "73.2",
         "preMarket": "72.925"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "STLD": {
     "priceHistory": {
@@ -44397,7 +45193,9 @@ let organizedTickerData = {
         "afterHours": "119.75",
         "preMarket": "119.47"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "STT": {
     "priceHistory": {
@@ -44509,7 +45307,9 @@ let organizedTickerData = {
         "afterHours": "73.92",
         "preMarket": "72.8"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "STZ": {
     "priceHistory": {
@@ -44621,7 +45421,9 @@ let organizedTickerData = {
         "afterHours": "241.2824",
         "preMarket": "241.37"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SWK": {
     "priceHistory": {
@@ -44733,7 +45535,9 @@ let organizedTickerData = {
         "afterHours": "93.78",
         "preMarket": "90.95"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SWN": {
     "priceHistory": {
@@ -44845,7 +45649,9 @@ let organizedTickerData = {
         "afterHours": "6.6001",
         "preMarket": "6.55"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SYF": {
     "priceHistory": {
@@ -44957,7 +45763,9 @@ let organizedTickerData = {
         "afterHours": "33.83",
         "preMarket": "32.36"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SYK": {
     "priceHistory": {
@@ -45069,7 +45877,9 @@ let organizedTickerData = {
         "afterHours": "295.65",
         "preMarket": "296.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "SYY": {
     "priceHistory": {
@@ -45181,7 +45991,9 @@ let organizedTickerData = {
         "afterHours": "72.8",
         "preMarket": "72.4"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "T": {
     "priceHistory": {
@@ -45293,7 +46105,9 @@ let organizedTickerData = {
         "afterHours": "16.77",
         "preMarket": "16.57"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "TA": {
     "priceHistory": {
@@ -45342,7 +46156,9 @@ let organizedTickerData = {
         "afterHours": "86.09",
         "preMarket": "86.5"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "TAP": {
     "priceHistory": {
@@ -45454,7 +46270,9 @@ let organizedTickerData = {
         "afterHours": "61.93",
         "preMarket": "61.75"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "TFC": {
     "priceHistory": {
@@ -45566,7 +46384,9 @@ let organizedTickerData = {
         "afterHours": "33.27",
         "preMarket": "32.1"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "TGT": {
     "priceHistory": {
@@ -45678,7 +46498,9 @@ let organizedTickerData = {
         "afterHours": "134.78",
         "preMarket": "133.81"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "THC": {
     "priceHistory": {
@@ -45790,7 +46612,9 @@ let organizedTickerData = {
         "afterHours": "71.01",
         "preMarket": "68.88"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "THO": {
     "priceHistory": {
@@ -45902,7 +46726,9 @@ let organizedTickerData = {
         "afterHours": "104.27",
         "preMarket": "98.83"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "TJX": {
     "priceHistory": {
@@ -46014,7 +46840,9 @@ let organizedTickerData = {
         "afterHours": "89.08",
         "preMarket": "88.1"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "TMHC": {
     "priceHistory": {
@@ -46126,7 +46954,9 @@ let organizedTickerData = {
         "afterHours": "46.59",
         "preMarket": "45.08"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "TMO": {
     "priceHistory": {
@@ -46238,7 +47068,9 @@ let organizedTickerData = {
         "afterHours": "496.0",
         "preMarket": "490.88"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "TOL": {
     "priceHistory": {
@@ -46350,7 +47182,9 @@ let organizedTickerData = {
         "afterHours": "88.0",
         "preMarket": "85.98"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "TRGP": {
     "priceHistory": {
@@ -46462,7 +47296,9 @@ let organizedTickerData = {
         "afterHours": "90.16",
         "preMarket": "90.16"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "TRV": {
     "priceHistory": {
@@ -46574,7 +47410,9 @@ let organizedTickerData = {
         "afterHours": "181.98",
         "preMarket": "179.94"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "TSCO": {
     "priceHistory": {
@@ -46686,7 +47524,9 @@ let organizedTickerData = {
         "afterHours": "210.07",
         "preMarket": "203.4"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "TSLA": {
     "priceHistory": {
@@ -46798,7 +47638,9 @@ let organizedTickerData = {
         "afterHours": "239.31",
         "preMarket": "236.5"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "TSN": {
     "priceHistory": {
@@ -46910,7 +47752,9 @@ let organizedTickerData = {
         "afterHours": "48.25",
         "preMarket": "46.9"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "TXN": {
     "priceHistory": {
@@ -47022,7 +47866,9 @@ let organizedTickerData = {
         "afterHours": "155.6",
         "preMarket": "152.8"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "TXT": {
     "priceHistory": {
@@ -47134,7 +47980,9 @@ let organizedTickerData = {
         "afterHours": "77.88",
         "preMarket": "76.65"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "UAL": {
     "priceHistory": {
@@ -47246,7 +48094,9 @@ let organizedTickerData = {
         "afterHours": "40.35",
         "preMarket": "39.65"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "UBER": {
     "priceHistory": {
@@ -47358,7 +48208,9 @@ let organizedTickerData = {
         "afterHours": "60.5",
         "preMarket": "56.34"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "UFPI": {
     "priceHistory": {
@@ -47470,7 +48322,9 @@ let organizedTickerData = {
         "afterHours": "112.94",
         "preMarket": "109.03"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "UGI": {
     "priceHistory": {
@@ -47582,7 +48436,9 @@ let organizedTickerData = {
         "afterHours": "22.44",
         "preMarket": "21.97"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "UHS": {
     "priceHistory": {
@@ -47694,7 +48550,9 @@ let organizedTickerData = {
         "afterHours": "137.7",
         "preMarket": "137.52"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ULTA": {
     "priceHistory": {
@@ -47806,7 +48664,9 @@ let organizedTickerData = {
         "afterHours": "473.0",
         "preMarket": "475.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "UNFI": {
     "priceHistory": {
@@ -47918,7 +48778,9 @@ let organizedTickerData = {
         "afterHours": "15.69",
         "preMarket": "14.61"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "UNH": {
     "priceHistory": {
@@ -48030,7 +48892,9 @@ let organizedTickerData = {
         "afterHours": "547.5",
         "preMarket": "553.0"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "UNM": {
     "priceHistory": {
@@ -48142,7 +49006,9 @@ let organizedTickerData = {
         "afterHours": "43.08",
         "preMarket": "42.68"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "UNP": {
     "priceHistory": {
@@ -48254,7 +49120,9 @@ let organizedTickerData = {
         "afterHours": "231.37",
         "preMarket": "226.31"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "UNVR": {
     "priceHistory": {
@@ -48321,7 +49189,9 @@ let organizedTickerData = {
         "afterHours": "35.76",
         "preMarket": "35.86"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "UPS": {
     "priceHistory": {
@@ -48433,7 +49303,9 @@ let organizedTickerData = {
         "afterHours": "154.92",
         "preMarket": "151.5"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "URI": {
     "priceHistory": {
@@ -48545,7 +49417,9 @@ let organizedTickerData = {
         "afterHours": "501.83",
         "preMarket": "478.75"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "USB": {
     "priceHistory": {
@@ -48657,7 +49531,9 @@ let organizedTickerData = {
         "afterHours": "39.38",
         "preMarket": "38.18"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "USFD": {
     "priceHistory": {
@@ -48769,7 +49645,9 @@ let organizedTickerData = {
         "afterHours": "43.86",
         "preMarket": "43.8"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "V": {
     "priceHistory": {
@@ -48881,7 +49759,9 @@ let organizedTickerData = {
         "afterHours": "256.47",
         "preMarket": "256.95"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "VFC": {
     "priceHistory": {
@@ -48993,7 +49873,9 @@ let organizedTickerData = {
         "afterHours": "18.0997",
         "preMarket": "16.79"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "VLO": {
     "priceHistory": {
@@ -49105,7 +49987,9 @@ let organizedTickerData = {
         "afterHours": "126.39",
         "preMarket": "125.36"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "VMC": {
     "priceHistory": {
@@ -49217,7 +50101,9 @@ let organizedTickerData = {
         "afterHours": "215.63",
         "preMarket": "214.25"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "VMW": {
     "priceHistory": {
@@ -49320,7 +50206,9 @@ let organizedTickerData = {
         "afterHours": "146.0",
         "preMarket": "145.72"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "VRTX": {
     "priceHistory": {
@@ -49432,7 +50320,9 @@ let organizedTickerData = {
         "afterHours": "351.16",
         "preMarket": "354.81"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "VST": {
     "priceHistory": {
@@ -49544,7 +50434,9 @@ let organizedTickerData = {
         "afterHours": "36.28",
         "preMarket": "35.41"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "VTRS": {
     "priceHistory": {
@@ -49656,7 +50548,9 @@ let organizedTickerData = {
         "afterHours": "9.39",
         "preMarket": "9.18"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "VZ": {
     "priceHistory": {
@@ -49768,7 +50662,9 @@ let organizedTickerData = {
         "afterHours": "38.6",
         "preMarket": "38.38"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "W": {
     "priceHistory": {
@@ -49880,7 +50776,9 @@ let organizedTickerData = {
         "afterHours": "58.68",
         "preMarket": "55.7"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WAB": {
     "priceHistory": {
@@ -49992,7 +50890,9 @@ let organizedTickerData = {
         "afterHours": "120.12",
         "preMarket": "116.99"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WBA": {
     "priceHistory": {
@@ -50104,7 +51004,9 @@ let organizedTickerData = {
         "afterHours": "20.79",
         "preMarket": "20.06"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "WBD": {
     "priceHistory": {
@@ -50216,7 +51118,9 @@ let organizedTickerData = {
         "afterHours": "11.31",
         "preMarket": "10.45"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WCC": {
     "priceHistory": {
@@ -50328,7 +51232,9 @@ let organizedTickerData = {
         "afterHours": "162.49",
         "preMarket": "156.38"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WDC": {
     "priceHistory": {
@@ -50440,7 +51346,9 @@ let organizedTickerData = {
         "afterHours": "48.51",
         "preMarket": "47.94"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WEC": {
     "priceHistory": {
@@ -50552,7 +51460,9 @@ let organizedTickerData = {
         "afterHours": "84.96",
         "preMarket": "83.64"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WFC": {
     "priceHistory": {
@@ -50664,7 +51574,9 @@ let organizedTickerData = {
         "afterHours": "45.06",
         "preMarket": "44.53"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WHR": {
     "priceHistory": {
@@ -50776,7 +51688,9 @@ let organizedTickerData = {
         "afterHours": "113.19",
         "preMarket": "109.17"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WKC": {
     "priceHistory": {
@@ -50888,7 +51802,9 @@ let organizedTickerData = {
         "afterHours": "21.5",
         "preMarket": "20.91"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": false
   },
   "WKCC": {
     "priceHistory": {
@@ -51000,7 +51916,9 @@ let organizedTickerData = {
         "afterHours": "43.77",
         "preMarket": "44.6"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": false
   },
   "WKCU": {
     "priceHistory": {
@@ -51112,7 +52030,9 @@ let organizedTickerData = {
         "afterHours": "574.32",
         "preMarket": "571.4"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": false
   },
   "WLK": {
     "priceHistory": {
@@ -51224,7 +52144,9 @@ let organizedTickerData = {
         "afterHours": "132.57",
         "preMarket": "128.15"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WM": {
     "priceHistory": {
@@ -51336,7 +52258,9 @@ let organizedTickerData = {
         "afterHours": "173.7",
         "preMarket": "170.53"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WMB": {
     "priceHistory": {
@@ -51448,7 +52372,9 @@ let organizedTickerData = {
         "afterHours": "37.28",
         "preMarket": "36.7"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WMT": {
     "priceHistory": {
@@ -51560,7 +52486,9 @@ let organizedTickerData = {
         "afterHours": "154.33",
         "preMarket": "155.87"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "WRB": {
     "priceHistory": {
@@ -51672,7 +52600,9 @@ let organizedTickerData = {
         "afterHours": "73.26",
         "preMarket": "72.29"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WRK": {
     "priceHistory": {
@@ -51784,7 +52714,9 @@ let organizedTickerData = {
         "afterHours": "42.68",
         "preMarket": "41.71"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WSM": {
     "priceHistory": {
@@ -51896,7 +52828,9 @@ let organizedTickerData = {
         "afterHours": "195.85",
         "preMarket": "187.89"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WSO": {
     "priceHistory": {
@@ -52008,7 +52942,9 @@ let organizedTickerData = {
         "afterHours": "396.06",
         "preMarket": "383.33"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "WY": {
     "priceHistory": {
@@ -52120,7 +53056,9 @@ let organizedTickerData = {
         "afterHours": "31.7",
         "preMarket": "31.38"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "X": {
     "priceHistory": {
@@ -52232,7 +53170,9 @@ let organizedTickerData = {
         "afterHours": "36.33",
         "preMarket": "36.11"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "XEL": {
     "priceHistory": {
@@ -52344,7 +53284,9 @@ let organizedTickerData = {
         "afterHours": "61.39",
         "preMarket": "60.94"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "XOM": {
     "priceHistory": {
@@ -52456,7 +53398,9 @@ let organizedTickerData = {
         "afterHours": "103.09",
         "preMarket": "102.7"
       }
-    }
+    },
+    "hasLetter": true,
+    "hasNews": true
   },
   "XPO": {
     "priceHistory": {
@@ -52568,7 +53512,9 @@ let organizedTickerData = {
         "afterHours": "90.3",
         "preMarket": "86.3"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "YUMC": {
     "priceHistory": {
@@ -52680,7 +53626,9 @@ let organizedTickerData = {
         "afterHours": "43.73",
         "preMarket": "43.0"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   },
   "ZTS": {
     "priceHistory": {
@@ -52792,6 +53740,8 @@ let organizedTickerData = {
         "afterHours": "181.49",
         "preMarket": "178.39"
       }
-    }
+    },
+    "hasLetter": false,
+    "hasNews": true
   }
 }
