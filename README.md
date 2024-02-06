@@ -1,10 +1,12 @@
 # P03-Stock-Visualizer
-![StonksMeme](readmeImage/ReadmeStonksImg.jpg)
+![StonksMeme](Images/ReadmeStonksImg.jpg)
 
 ## Topic
 The topic of this project is researching stock price fluctuations based on indicators in various key words in news and letters to shareholders.  Comparisons may be made based on market cap and industry to narrow the sample size or focus on companies that share similar profiles.
 
 Rationale is to investigate possible useful logic in predicting stock price performance.
+
+![SampleDashboard](Images/SampleDashboard.jpg)
 
 ## File Location
 - 'api-data' you can find a few all of the code used in calling the polygon stocks and news api and how we pulled data from them to save to csvs
