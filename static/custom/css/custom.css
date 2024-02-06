@@ -111,8 +111,9 @@ body {
 .keywordItem.selected {
     background-color: #555;
 }
-.keywordItem.selected:hover {
-    background-color: #888;
+.keywordItem.selected:hover,
+#keywordList.full .keywordItem.selected:hover {
+    background-color: #702828;
 }
 
 #keywordList.full {
@@ -125,11 +126,7 @@ body {
 }
 
 #keywordList.full .keywordItem:hover {
-    background-color: #581818;
-}
-
-#keywordList.full .keywordItem.selected:hover {
-    background-color: #702828;
+    background-color: #282828;
 }
 
 .plot-container .svg-container .main-svg {
