@@ -38,7 +38,15 @@
                 </div>
                 <div id="right-pane" class="widget-box col col-md-8 col-sm-12">
                     <div id="word-cloud-widget" class="dash-widget widget-vert">
-                        <h3 class="widget-title header">Stock News Word Cloud</h1>
+                        <div id="wc-title">
+                            <h3 class="widget-title header">Stock Keyword Cloud</h1>
+                            <form>
+                                <input type="radio" id="news" name="option" value="news">
+                                <label for="news">News Keywords</label><br>
+                                <input type="radio" id="letter-words" name="option" value="letterWords">
+                                <label for="letterWords">Shareholder Letter</label><br>
+                            </form>
+                        </div>
                         <div id="word-cloud" class="dynamic-vis-box"></div>
                     </div>
                     <div id="plot-widget" class="dash-widget widget-vert">

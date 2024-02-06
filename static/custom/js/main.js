@@ -125,20 +125,13 @@ function mapValueToColor(value) {
     const redHue = 0;
 
     // Calculate the hue based on the mapped value
-    let hue;
-    if (mappedValue > 0) {
-    // Interpolate hue between greenHue and 0 (yellow) for negative values
-        hue = greenHue;
-    } else {
-    // Interpolate hue between 0 (yellow) and redHue for positive values
-        hue = redHue;
-    }
+    // Green if above 0, red if below 0
+    let hue = mappedValue > 0 ? greenHue : redHue;
 
     // Set saturation and lightness to a constant value
-    const saturation = Math.abs(mappedValue) * 50;
+    const saturation = Math.pow(Math.abs(mappedValue), 2.4) * 12;
     const lightness = 50;
 
-    // Convert HSL to RGB
     const color = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
 
     return color;
@@ -157,6 +150,16 @@ function isFirstItemPresent(array, target) {
     return false; // If not found, return false
 }
 
+
+function clearCloud() {
+    //refresh word cloud div so we get accurate sizes
+    wordDiv = document.getElementById('word-cloud');
+
+    //Delete existing svgs
+    while (wordDiv.firstChild) {
+        wordDiv.removeChild(wordDiv.firstChild);
+    }
+}
 
 //  WORD CLOUD
 // ------------
@@ -183,7 +186,7 @@ function genWordCloud(tickerArr) {
             if(firstItemPres != false) {
                 // Add word values together if item is present in list and has returned an array index
                 // (Added a size adjustment factor since it shows up more than once)
-                finalWordArray[firstItemPres][tickerWords[j][0]].size += (Math.abs(tickerWords[j][1]) * 2 + 50);
+                finalWordArray[firstItemPres][tickerWords[j][0]].size += Math.pow((Math.abs(tickerWords[j][1]), 2.1) + 20);
 
             } else {
                 // Add word and value from tickerWords to list since it does not already exist
@@ -193,14 +196,7 @@ function genWordCloud(tickerArr) {
     }
 
     //console.log(finalWordArray);
-
-    //refresh word cloud div so we get accurate sizes
-    wordDiv = document.getElementById('word-cloud');
-
-    //Delete existing svgs
-    while (wordDiv.firstChild) {
-        wordDiv.removeChild(wordDiv.firstChild);
-    }
+    clearCloud();
 
     cloudLayout = d3.layout.cloud()
         .size([wordDiv.clientWidth, wordDiv.clientHeight]) // Size of the word cloud area
@@ -320,7 +316,8 @@ function resizePlot() {
         height: plotDiv.clientHeight
     };
     Plotly.relayout("price-plot", update);
-    //cloudLayout.start();
+    //clearCloud();
+    cloudLayout.size([wordDiv.clientWidth, wordDiv.clientHeight]);
 }
 
 // Callback function to draw the word cloud
@@ -402,7 +399,7 @@ kwList.append("li").classed("keywordItem", true).classed("selected", true).text(
 numStocksSelected = 1;
 //adding the rest of our stock tickers
 for(let i=1;i<allTickers.length;i++) {
-    kwList.append("li").classed("keywordItem", true).classed("selected", false).text(allTickers[i]);
+    kwList.append("li").classed("keywordItem", true).classed("selected", false).classed("has-letter", false).text(allTickers[i]);
 }
 keywordItems = document.querySelectorAll('.keywordItem');
 
