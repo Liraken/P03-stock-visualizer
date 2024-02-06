@@ -1,0 +1,130 @@
+body {
+    background-color: #28303a;
+    color: #e8e8e8;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    text-shadow: 1px 1px 3px black;
+}
+
+#main-title {
+    margin-top: 10px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+#main-content {
+    flex-grow: 1;
+}
+
+.widget-box {
+    text-align: center;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.widget-box .header {
+    color: #f0f0f0;
+}
+
+.dash-widget p {
+    margin-top: -6px;
+    margin-bottom: 6px;
+}
+
+.widget-dropdown {
+    margin-bottom: 12px;
+}
+
+.dynamic-vis-box {
+    min-height: 40px;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #484848 #999 #999 #484848;
+    border-radius: 8px;
+    background: #111;
+    box-shadow: 1px 1px 3px #000;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    overflow:hidden;
+}
+
+.dash-widget {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 12px;
+}
+
+.widget-full {
+    height: 100%;
+}
+
+#plot-widget {
+    height: 40%;
+}
+
+#word-cloud-widget {
+    height: 60%;
+}
+
+.full-ht {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    padding-bottom:12px;
+}
+
+#keywordInput {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#keywordList {
+    list-style-type: none;
+    padding: 0;
+    max-height: 72vh;
+    overflow: scroll;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.keywordItem {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.keywordItem:hover {
+    background-color: #777;
+}
+
+.keywordItem.selected {
+    background-color: #555;
+}
+.keywordItem.selected:hover {
+    background-color: #888;
+}
+
+#keywordList.full {
+    background-color: #411;
+}
+
+#keywordList.full .keywordItem:hover {
+    background-color: #581818;
+}
+
+#keywordList.full .keywordItem.selected:hover {
+    background-color: #702828;
+}
+
+.plot-container .svg-container .main-svg {
+    border-radius: 6px;
+}
+
+.hdiv-input-button {
+    margin-bottom: 12px;
+}
