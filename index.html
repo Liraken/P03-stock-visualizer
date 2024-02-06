@@ -10,12 +10,12 @@
     <body>
         <div class="container full-ht">
             <div id="main-title">
-                <h1 class="header">Stock Price-Performance vs News Keyword Appearance</h1>
+                <h1 class="header">Stock Price-Performance vs News Keyword Appearance</h3>
             </div>
             <div id="main-content" class="row">
                 <div id="left-pane" class="widget-box col col-md-4 col-sm-12">
                     <div id="cap-widget" class="dash-widget widget-full">
-                        <h3 class="widget-title header">Market Cap Comparison</h1>
+                        <h3 class="widget-title header">Market Cap Comparison</h3>
                         <p>Click to select/deselect stocks</p>
                         <p>(Up to 5 max)</p>
                         <div class="widget-dropdown">
@@ -24,7 +24,7 @@
                                 <option value="all" > -- Select a Filter -- </option> -->
                                 <!-- <option disabled> -- By Sector -- </option>
                                 <option disabled> -- By Size -- </option> -->
-                            </select>
+                            <!-- </select> -->
                         </div>
                         <div class="hdiv-input-button">
                             <input type="text" id="keywordInput" placeholder="Search...">
@@ -38,7 +38,15 @@
                 </div>
                 <div id="right-pane" class="widget-box col col-md-8 col-sm-12">
                     <div id="word-cloud-widget" class="dash-widget widget-vert">
-                        <h3 class="widget-title header">Stock News Word Cloud</h1>
+                        <div id="wc-title">
+                            <h3 class="widget-title header">Stock Keyword Cloud</h3>
+                            <form>
+                                <input type="radio" id="news" name="option" value="news">
+                                <label for="news">News Keywords</label><br>
+                                <input type="radio" id="letter-words" name="option" value="letterWords">
+                                <label for="letterWords">Shareholder Letter</label><br>
+                            </form>
+                        </div>
                         <div id="word-cloud" class="dynamic-vis-box"></div>
                     </div>
                     <div id="plot-widget" class="dash-widget widget-vert">
@@ -52,11 +60,9 @@
         <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="https://d3js.org/d3.v7.min.js"></script>
         <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
-        <script type="module">import {  } from '/static/d3-cloud/d3.layout.cloud.js';</script>
+        <script type="module" src="static/d3-cloud/d3.layout.cloud.js">import {  } from '/static/d3-cloud/d3.layout.cloud.js';</script>
         <script src="static/custom/js/priceData.js"></script>
         <script src="static/custom/js/wordAnalysisData.js"></script>
-        <script type="module" src="static/custom/js/main.js">
-            import {  } from '/static/custom/js/main.js';
-        </script>
+        <script type="module" src="static/custom/js/main.js">import {  } from '/static/custom/js/main.js';</script>
     </body>
 </html>

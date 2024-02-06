@@ -128,3 +128,10 @@ body {
 .hdiv-input-button {
     margin-bottom: 12px;
 }
+
+#wc-title {
+    display:flex;
+}
+
+/* #wc-title h3 {
+} */
