@@ -8,6 +8,7 @@ let numStocksSelected = 0;
 let availableColors = ['#0ae', '#f80', '#dd3', 'white', 'magenta'];
 const keywordInput = document.getElementById('keywordInput');
 const keywordList = document.getElementById('keywordList');
+const radioButtons = document.querySelectorAll('input[type="radio"][name="kw-option"]');
 //assigning the keyword list in d3 as well for the .append() function
 let kwList = d3.select('#keywordList');
 let keywordItems = document.querySelectorAll('.keywordItem');
@@ -16,7 +17,9 @@ let wordDiv = document.getElementById('word-cloud');
 let currentTickerArr = [];
 
 //this will be controllable via radio button to toggle between news and shareholder letters
-let keywordSource = 'news';
+let keywordSource = (document.getElementById('news').checked) ? 'news' : 'letterWords';
+let lastPlottedKwSrc = keywordSource;
+//console.log(keywordSource);
 
 
 
@@ -232,6 +235,11 @@ function genWordCloud(tickerArr) {
     // creating an empty array to store our final word cloud
     let finalWordArray = [];
 
+    let flatSizeAdj = (keywordSource === 'letterWords') ? 14 : 13;
+    let expScaleAdj = (keywordSource === 'letterWords') ? 0.5 : 1.8;
+    let multScaleAdj = (keywordSource === 'letterWords') ? 150 : 100;
+    let colorScaleAdj = (keywordSource === 'letterWords') ? 300 : 1;
+
     // populate our words with logic to handle overlapping words
     // this is more nested for loops than I'm comfortable with, there's probably a much better way to do this
     // (probably with a modified data model because arrays in js are... not great. at least they're mutable though)
@@ -253,11 +261,15 @@ function genWordCloud(tickerArr) {
             if(firstItemPres != false) {
                 // Add word values together if item is present in list and has returned an array index
                 // (Added a size adjustment factor since it shows up more than once)
-                finalWordArray[firstItemPres][tickerWords[j][0]].size += Math.pow((Math.abs(tickerWords[j][1]), 1.8));
+                finalWordArray[firstItemPres][tickerWords[j][0]].size += Math.pow((Math.abs(tickerWords[j][1]), expScaleAdj));
 
             } else {
                 // Add word and value from tickerWords to list since it does not already exist
-                finalWordArray.push({text: tickerWords[j][0], size: (Math.sqrt(Math.abs(tickerWords[j][1]) * 100) + 13), colorValue: mapValueToColor(tickerWords[j][1])});
+                finalWordArray.push({
+                    text: tickerWords[j][0], 
+                    size: (Math.sqrt(Math.abs(tickerWords[j][1]) * multScaleAdj) + flatSizeAdj), 
+                    colorValue: mapValueToColor(tickerWords[j][1] * colorScaleAdj)
+                });
             }
         }   
     }
@@ -331,8 +343,9 @@ function draw(words) {
 
 //updates active ticker list by querying the current list for selected tickers
 function refreshTracesAndPlot(priceDataPoint='close') {
+    keywordItems = document.querySelectorAll('.keywordItem');
     let oldTickerArr = currentTickerArr;
-    let selectedTickerLiItems = document.querySelectorAll('li.selected');
+    let selectedTickerLiItems = document.querySelectorAll('.selected');
     currentTickerArr = [];
 
     //check that the query selector did not return null
@@ -345,15 +358,15 @@ function refreshTracesAndPlot(priceDataPoint='close') {
         }
     }
 
-    // console.log(oldTickerArr);
-    // console.log(currentTickerArr);
+    console.log(oldTickerArr);
+    console.log(currentTickerArr);
 
     //only re-plot stocks if something actually changed
-    if (!arraysContainSameItems(oldTickerArr, currentTickerArr)) {
+    if (!arraysContainSameItems(oldTickerArr, currentTickerArr) || keywordSource != lastPlottedKwSrc) {
         // console.log("different ticker arrays!");
         plotStocks(genPriceTraceArray(currentTickerArr, priceDataPoint));
         
-        if (currentTickerArr.length != 0) {
+        if (currentTickerArr.length > 0) {
             genWordCloud(currentTickerArr);
         } else {
             clearCloud();
@@ -375,6 +388,7 @@ function refreshTracesAndPlot(priceDataPoint='close') {
             cloudLayout.start();
         };
     }
+    lastPlottedKwSrc = keywordSource;
 }
 
 // clears out stocks and resets numStocksSelected so that new ones can be picked from the list
@@ -399,6 +413,25 @@ function resizePlot() {
     cloudLayout.size([wordDiv.clientWidth, wordDiv.clientHeight]);
 }
 
+// go through all keywordItems and hide whatever doesn't have the class contained in classFilter present
+// also deselect it and decrement numStocksSelected if a selected stock doesn't have that same class
+function evalValidStocksFromKeywordSrc(classFilter) {
+    keywordItems.forEach(item => {
+        if (item.classList.contains(classFilter)) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+
+            // I don't like running this check every time, but it's the easiest way I can think of
+            // to make sure we're properly controlling numStocksSelected at the same time.
+            if (item.classList.contains('selected')) {
+                item.classList.remove('selected');
+                numStocksSelected--;
+            }
+        }
+    });
+}
+
 /* --------------- *
  * EVENT LISTENERS
  * --------------- */
@@ -406,7 +439,7 @@ function resizePlot() {
 //ticker search box
 keywordInput.addEventListener('input', function() {
     let filter = keywordInput.value.trim().toLowerCase(); // trim() to remove leading/trailing spaces
-    console.log(keywordItems);
+    //console.log(keywordItems);
     keywordItems.forEach(item => {
         let text = item.textContent.toLowerCase();
         if (text.includes(filter)) {
@@ -417,7 +450,7 @@ keywordInput.addEventListener('input', function() {
     });
 });
 
-// handle keyword selection, police 5 keyword limit
+// handle keyword selection by user, enforce 5 keyword limit
 keywordList.addEventListener('click', function(event) {
     if (event.target.classList.contains('keywordItem')) {
         const selectedKeyword = event.target.textContent;
@@ -433,6 +466,7 @@ keywordList.addEventListener('click', function(event) {
         } else {
             event.target.classList.remove('selected');
             numStocksSelected--;
+            // WE DO NOT NEED TO UPDATE THE TICKER ARRAY HERE, that is done automatically by refreshTracesAndPlot();
         }
 
         if (numStocksSelected >= 5) {
@@ -445,10 +479,26 @@ keywordList.addEventListener('click', function(event) {
     }
 });
 
-//resize plot if window size changes
+// resize plots if window size changes
 window.addEventListener('resize', resizePlot);
 
+// radio buttons
+radioButtons.forEach(radioButton => {
+    radioButton.addEventListener('change', function() {
 
+        keywordSource = this.value;
+        let classFilter = (this.value === 'letterWords') ? 'has-letter' : 'has-news';
+        //console.log(keywordSource, classFilter);
+
+        evalValidStocksFromKeywordSrc(classFilter);
+
+        if (numStocksSelected < 5) {
+            keywordList.classList.remove('full');
+        };
+
+        refreshTracesAndPlot();
+    });
+});
 
 /* ------------------ *
  *   INITIALIZATION
@@ -456,24 +506,28 @@ window.addEventListener('resize', resizePlot);
 
 allTickers = Object.keys(priceData);
 
-//add first ticker as a selected stock, set numStocksSelected to reflect
-kwList.append("li").classed("keywordItem", true)
-    .classed("selected", true)
-    .classed("has-letter", priceData[allTickers[0]].hasLetter)
-    .classed("has-news", priceData[allTickers[0]].hasNews)
-    .text(allTickers[0]);
-numStocksSelected = 1;
 //adding the rest of our stock tickers
-for(let i=1;i<allTickers.length;i++) {
+for(let i=0;i<allTickers.length;i++) {
     kwList.append("li").classed("keywordItem", true)
         .classed("selected", false)
         .classed("has-letter", priceData[allTickers[i]].hasLetter)
         .classed("has-news", priceData[allTickers[i]].hasNews)
         .text(allTickers[i]);
 }
+
+// refresh the keywordItems
 keywordItems = document.querySelectorAll('.keywordItem');
 
-//console.log(wordsAnalysisData);
+// I really need to turn this ternary operator into its own function
+evalValidStocksFromKeywordSrc(keywordSource === 'letterWords' ? 'has-letter' : 'has-news');
+
+// find first stock with current keywordSource selection and select it
+let firstWithKwClass = document.querySelector(`.keywordItem.${(keywordSource === 'letterWords' ? 'has-letter' : 'has-news')}`);
+console.log(firstWithKwClass);
+firstWithKwClass.classList.add('selected')
+numStocksSelected += 1;
+
+// console.log(wordsAnalysisData);
 
 
 // INIT: CONFIGURE WORDCLOUD
