@@ -4,7 +4,6 @@ The topic of this project is researching stock price fluctuations based on indic
 
 Rationale is to investigate possible useful logic in predicting stock price performance.
 
-<<<<<<< HEAD
 ## File Location
 - In 'api-data' you can find a few all of the code used in calling the polygon stocks and news api and how we pulled data from them to save to csvs
 - In static you can find the java script file app.js where most of the work on this assignment was done
@@ -13,12 +12,6 @@ Rationale is to investigate possible useful logic in predicting stock price perf
 - In the main you can find a link to our basic powerpoint as well as an intial project proposal and finally a sqlite file called 'stock.visualizer.data' 
 
 ## Data Collection
-=======
-Ethical Considerations
-Anytime you begin to try to use data around the information of companies to try and predict what stock prices do, you have to take into account that stock prices are incredibly unpredictible and even the most complex models fail to take into account "human" problems. Attempting to predict what stock prices will do is akin to attempting to predict what will happen on a roulette wheel based on probabilities, it is important to convey that disclaimer when providing analysis on stock data, especially when our analysis is based on a fairly small sample size and we aren't licensed financial professionals. It is also worth considering that taking language and verbage completely out of context also has its own ethical considerations.
-
-Data Collection
->>>>>>> 7f807369979ec7202e02af41663e39ace2c5dd44
 - API calls from Polygon.io
   - Daily Open/Close
   - Ticker News
