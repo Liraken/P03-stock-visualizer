@@ -6,6 +6,9 @@ The topic of this project is researching stock price fluctuations based on indic
 
 Rationale is to investigate possible useful logic in predicting stock price performance.
 
+Ethical Considerations
+Anytime you begin to try to use data around the information of companies to try and predict what stock prices do, you have to take into account that stock prices are incredibly unpredictible and even the most complex models fail to take into account "human" problems. Attempting to predict what stock prices will do is akin to attempting to predict what will happen on a roulette wheel based on probabilities, it is important to convey that disclaimer when providing analysis on stock data, especially when our analysis is based on a fairly small sample size and we aren't licensed financial professionals. It is also worth considering that taking language and verbage completely out of context also has its own ethical considerations.
+
 Data Collection
 - API calls from Polygon.io
   - Daily Open/Close
