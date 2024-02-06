@@ -6,7 +6,7 @@ The topic of this project is researching stock price fluctuations based on indic
 
 Rationale is to investigate possible useful logic in predicting stock price performance.
 
-![SampleDashboard](Images/SampleDashboard.jpg)
+![SampleDashboard](Images/SampleDashboard.png)
 
 ## File Location
 - 'api-data' you can find a few all of the code used in calling the polygon stocks and news api and how we pulled data from them to save to csvs
