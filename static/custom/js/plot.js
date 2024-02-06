@@ -1,3 +1,5 @@
+let plotDiv = document.getElementById('price-plot');
+
 function plotStocks(traceArray) {
 
     //console.log(traceArray);
@@ -47,10 +49,12 @@ function plotStocks(traceArray) {
     Plotly.newPlot("price-plot", traceArray, layout);
 }
 
-function resizePlot() {
-    let update = {
-        width: plotDiv.clientWidth,
-        height: plotDiv.clientHeight
-    };
-    Plotly.relayout("price-plot", update);
+function clearSelectedStocks() {
+    let selectedTickerLiItems = document.querySelectorAll('li.selected');
+    selectedTickerLiItems.forEach(function(li) {
+        li.classList.remove('selected');
+    });
+    numStocksSelected = 0;
+    keywordList.classList.remove('full');
+    refreshTracesAndPlot();
 }
