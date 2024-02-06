@@ -1,6 +1,8 @@
-// GLOBAL VARIABLES
-let parsedPriceData;
-//let organizedTickerData; // This was moved to priceData.js
+window.clearSelectedStocks = clearSelectedStocks;
+
+// VARIABLES
+// let parsedPriceData;
+// let organizedTickerData; // This was moved to priceData.js
 let allTickers;
 let numStocksSelected = 0;
 let availableColors = ['cerulean', 'orange', 'pink', 'white', 'magenta'];
@@ -9,13 +11,12 @@ const keywordList = document.getElementById('keywordList');
 //assigning the keyword list in d3 as well for the .append() function
 let kwList = d3.select('#keywordList');
 let keywordItems = document.querySelectorAll('.keywordItem');
+let plotDiv = document.getElementById('price-plot');
 let wordDiv = document.getElementById('word-cloud');
 let currentTickerArr = [];
 
 //this will be controllable via radio button to toggle between news and shareholder letters
 let keywordSource = 'news';
-
-import {  } from '/static/d3-cloud/d3.layout.cloud.js';
 
 /* ------------- *
  *   FUNCTIONS
@@ -116,24 +117,25 @@ function mapValueToColor(value) {
     const maxValue = 10;
     
     // Map the value to a range between 0 and 1
-    const mappedValue = (value - minValue) / (maxValue - minValue);
+    const mappedValue = ((value - minValue) / (maxValue - minValue) - 0.5) * 40;
+    //console.log(value, mappedValue);
 
     // Define the hue for green (120 degrees) and red (0 degrees)
-    const greenHue = 120;
+    const greenHue = 140;
     const redHue = 0;
 
     // Calculate the hue based on the mapped value
     let hue;
-    if (mappedValue < 0.5) {
+    if (mappedValue > 0) {
     // Interpolate hue between greenHue and 0 (yellow) for negative values
-        hue = greenHue + (redHue - greenHue) * (mappedValue * 2);
+        hue = greenHue;
     } else {
     // Interpolate hue between 0 (yellow) and redHue for positive values
-        hue = redHue + (greenHue - redHue) * ((1 - mappedValue) * 2);
+        hue = redHue;
     }
 
     // Set saturation and lightness to a constant value
-    const saturation = Math.abs(mappedValue) * 100;
+    const saturation = Math.abs(mappedValue) * 50;
     const lightness = 50;
 
     // Convert HSL to RGB
@@ -153,39 +155,44 @@ function isFirstItemPresent(array, target) {
         }
     }
     return false; // If not found, return false
-  }
+}
 
+
+//  WORD CLOUD
+// ------------
+//create and draw word cloud
 function genWordCloud(tickerArr) {
     //creating this variable to enforce the 5-trace maximum
     //I'd like to make DRY code but I don't have time right now
     let tickerListTrunc = tickerArr.slice(0, 5);
-
     
     let finalWordArray = [];
     //iterate through ticker list
     for(let i=0; i < tickerListTrunc.length; i++) {
-        let tickerWords = wordsAnalysisData[tickerListTrunc[i]][keywordSource].keywords.map(innerArray => {
-            return innerArray.map(item => {
-                // Scale the second item by whatever factor we decide on because I don't want to type it here twice constantly to make the commend match the code
-                return (innerArray.indexOf(item) === 1) ? item * 2 : item;
-            });
-        });
+        let tickerWords = wordsAnalysisData[tickerListTrunc[i]][keywordSource].keywords;
+        // .map(innerArray => {
+        //     return innerArray.map(item => {
+        //         // Scale the second item by whatever factor we decide on because I don't want to type it here twice constantly to make the commend match the code
+        //         return (innerArray.indexOf(item) === 1) ? item * 1 : item;
+        //     });
+        // });
         
+        //console.log(tickerWords);
         for(let j=0;j<tickerWords.length;j++) {
             let firstItemPres = isFirstItemPresent(finalWordArray, tickerWords[j][0]);
             if(firstItemPres != false) {
                 // Add word values together if item is present in list and has returned an array index
                 // (Added a size adjustment factor since it shows up more than once)
-                finalWordArray[firstItemPres][tickerWords[j][0]].size += Math.abs(tickerWords[j][1]) * 2 + 50;
+                finalWordArray[firstItemPres][tickerWords[j][0]].size += (Math.abs(tickerWords[j][1]) * 2 + 50);
 
             } else {
                 // Add word and value from tickerWords to list since it does not already exist
-                finalWordArray.push({text: tickerWords[j][0], size: Math.sqrt(Math.abs(tickerWords[j][1]) * 250) + 15, colorValue: mapValueToColor(tickerWords[j][1] * 100)});
+                finalWordArray.push({text: tickerWords[j][0], size: (Math.sqrt(Math.abs(tickerWords[j][1]) * 250) + 15), colorValue: mapValueToColor(tickerWords[j][1])});
             }
         }   
     }
 
-    console.log(finalWordArray);
+    //console.log(finalWordArray);
 
     //refresh word cloud div so we get accurate sizes
     wordDiv = document.getElementById('word-cloud');
@@ -208,6 +215,28 @@ function genWordCloud(tickerArr) {
 
 }
 
+//Generated by ChatGPT
+function arraysContainSameItems(arr1, arr2) {
+    // Check if both arrays have the same length
+    if (arr1.length !== arr2.length) {
+        return false;
+    }
+
+    // Sort both arrays
+    const sortedArr1 = arr1.slice().sort();
+    const sortedArr2 = arr2.slice().sort();
+
+    // Compare sorted arrays element by element
+    for (let i = 0; i < sortedArr1.length; i++) {
+        if (sortedArr1[i] !== sortedArr2[i]) {
+            return false;
+        }
+    }
+
+    // If all elements match, arrays contain the same items
+    return true;
+}
+
 //updates active ticker list by querying the current list for selected tickers
 function refreshTracesAndPlot(priceDataPoint='close', wordCloudDataSrc='news') {
     let oldTickerArr = currentTickerArr;
@@ -218,18 +247,61 @@ function refreshTracesAndPlot(priceDataPoint='close', wordCloudDataSrc='news') {
     if (selectedTickerLiItems){
         //iterate over tickers
         for (let i = 0;i < selectedTickerLiItems.length; i++){
+            //check if the ticker can be found in the old ticker array
+            //and only push our new item if it's not present
             currentTickerArr.push(selectedTickerLiItems[i].textContent);
         }
     }
 
-    //console.log(currentTickerArr);
+    // console.log(oldTickerArr);
+    // console.log(currentTickerArr);
 
     //only re-plot stocks if something actually changed
-    if (oldTickerArr != currentTickerArr) {
+    if (!arraysContainSameItems(oldTickerArr, currentTickerArr)) {
+        console.log("different ticker arrays!");
         plotStocks(genPriceTraceArray(currentTickerArr));
         genWordCloud(currentTickerArr);
     }
+}
 
+function plotStocks(traceArray) {
+    //console.log(traceArray);
+
+    let titleStr = '';
+    if (traceArray.length > 0) {
+        //preloading first ticker name into title string
+        titleStr = `Stock Prices in $USD: ${traceArray[0].name}`;
+        //iterating through rest of ticker names, adding them with comma separators
+        for(let i = 1; i < traceArray.length; i++) {
+            titleStr = titleStr + ", " + `${traceArray[i].name}`;
+        };
+    } else {
+        titleStr = 'Select one or more stock tickers(s) to see plot!'
+    }
+
+    //console.log(titleStr);
+
+    let layout = {
+        dragmode: 'zoom',
+        //selectdirection: 'h',
+        title: titleStr,
+        width: plotDiv.clientWidth,
+        height: plotDiv.clientHeight,
+        margin: {
+            l: 30,
+            r: 30,
+            t: 90,
+            b: 30
+        },
+        plot_bgcolor: '#111',
+        paper_bgcolor: '#111',
+        font: { color: '#eee' },
+        line: { color: '#eee' },
+        xaxis: { gridcolor: '#555' },
+        yaxis: { gridcolor: '#555' }
+    };
+
+    Plotly.newPlot("price-plot", traceArray, layout);
 }
 
 export function clearSelectedStocks() {
@@ -240,7 +312,6 @@ export function clearSelectedStocks() {
     numStocksSelected = 0;
     keywordList.classList.remove('full');
     refreshTracesAndPlot();
-    
 }
 
 function resizePlot() {
@@ -335,6 +406,8 @@ for(let i=1;i<allTickers.length;i++) {
 }
 keywordItems = document.querySelectorAll('.keywordItem');
 
+console.log(wordsAnalysisData);
+
 //-----------------------------------
 
 let words = [
@@ -359,37 +432,37 @@ cloudLayout.start();
 
 refreshTracesAndPlot();
 
-// grab stock data and process it
-// EVERYTHING SHOULD BE IN THE SECOND .then() SO THAT IT GETS EXECUTED IN ORDER
-fetch('Resourses/stockdata.csv')
-    .then(response => response.text())
-    .then(function(table) {
+// // grab stock data and process it
+// // EVERYTHING SHOULD BE IN THE SECOND .then() SO THAT IT GETS EXECUTED IN ORDER
+// fetch('Resourses/stockdata.csv')
+//     .then(response => response.text())
+//     .then(function(table) {
         
-        //convert csv array to a more usable JavaScript Object
-        //THE DATA WAS ORIGINALLY CLEANED UP HERE, BUT IT IS NO LONGER NECESSARY
-        //JSON SAVED DIRECTLY TO priceData.js
-        organizedTickerData = convertData(parsePriceCSV(table));
+//         //convert csv array to a more usable JavaScript Object
+//         //THE DATA WAS ORIGINALLY CLEANED UP HERE, BUT IT IS NO LONGER NECESSARY
+//         //JSON SAVED DIRECTLY TO priceData.js
+//         organizedTickerData = convertData(parsePriceCSV(table));
 
-        allTickers = Object.keys(organizedTickerData);
+//         allTickers = Object.keys(organizedTickerData);
 
-        // console.log("tickers: ", tickers);
-        // console.log(organizedTickerData);
+//         // console.log("tickers: ", tickers);
+//         // console.log(organizedTickerData);
         
-        //assigning the keyword list
-        let kwList = d3.select('#keywordList');
+//         //assigning the keyword list
+//         let kwList = d3.select('#keywordList');
         
-        //add first ticker as a selected stock, set numStocksSelected to reflect
-        kwList.append("li").classed("keywordItem", true).classed("selected", true).text(allTickers[0]);
-        numStocksSelected = 1;
-        //adding the rest of our stock tickers
-        for(let i=1;i<allTickers.length;i++) {
-            kwList.append("li").classed("keywordItem", true).classed("selected", false).text(allTickers[i]);
-        }
+//         //add first ticker as a selected stock, set numStocksSelected to reflect
+//         kwList.append("li").classed("keywordItem", true).classed("selected", true).text(allTickers[0]);
+//         numStocksSelected = 1;
+//         //adding the rest of our stock tickers
+//         for(let i=1;i<allTickers.length;i++) {
+//             kwList.append("li").classed("keywordItem", true).classed("selected", false).text(allTickers[i]);
+//         }
         
-        keywordItems = document.querySelectorAll('.keywordItem');
+//         keywordItems = document.querySelectorAll('.keywordItem');
 
-        refreshTracesAndPlot();
+//         refreshTracesAndPlot();
 
-    }).catch(err => console.log(err));
+//     }).catch(err => console.log(err));
 
     
