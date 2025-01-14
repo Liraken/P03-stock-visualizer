@@ -2,7 +2,7 @@
 ![StonksMeme](Images/ReadmeStonksImg.jpg)
 
 ## Topic
-The topic of this project is researching stock price fluctuations based on indicators in various key words in news and letters to shareholders.  Comparisons may be made based on market cap and industry to narrow the sample size or focus on companies that share similar profiles.
+This project is researching stock price fluctuations based on indicators in various key words in news and letters to shareholders. Comparisons may be made based on market cap and industry to narrow the sample size or focus on companies that share similar profiles.
 
 Rationale is to investigate possible useful logic in predicting stock price performance.
 
